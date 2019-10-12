@@ -1,0 +1,145 @@
+.Nav {
+  width: 100%;
+  height: 100px;
+  background-color: #FFF;
+  border-bottom: 1px solid #e3e3e3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 90;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Nav-Wrapper {
+  max-width: 1170px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.Nav-TopRow {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #585858;
+
+  .Nav-Logo {
+    font-family: 'Program OT Bold', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    cursor: pointer;
+    color: #585858;
+  }
+
+  .Nav-UserLinks-Wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .Nav-RegistrationLink {
+      color: #585858;
+
+      .Nav-Registration {
+        font-size: 14px;
+        font-weight: 600;
+        margin-right: 30px;
+        cursor: pointer;
+      }
+    }
+
+    .Nav-RegistrationLink:hover {
+      color: #191919;
+    }
+
+    .Nav-ContactBtn {
+      width: 90px;
+      height: 25px;
+      background-color: rgb(61, 155, 206);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      .Nav-ContactBtn-Text {
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 500;
+      }
+    }
+
+    .Nav-ContactBtn:hover {
+      background-color: rgb(47, 126, 169);
+    }
+  }
+}
+
+.Nav-BottomRow {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .Nav-Links-Wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+
+    .Nav-Link {
+      font-size: 14px;
+      color: #9a9a9a;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .Nav-Link:hover {
+      color: #585858;
+    }
+  }
+
+  .Nav-Dealer-Wrapper {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+    .Nav-Dealer-Icon {
+      width: 15px;
+      height: 22px;
+      background: url("../../../Assets/Icons/LocationIconBlue.svg");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .Nav-Dealer-Text {
+      color: rgb(61, 155, 206);
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .Nav-Dealer-Text:hover {
+      color: rgb(47, 126, 169);
+    }
+  }
+}
+
+.Nav-Link:hover {
+  color: #585858;
+}
+@media screen and (max-width: 1200px) {
+  .Nav-Wrapper {
+    max-width: 980px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .Nav {
+    display: none;
+  }
+}
