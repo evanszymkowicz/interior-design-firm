@@ -46,7 +46,7 @@ export default function AboutTabs({ToggleWhoWeAre, ToggleOurHeritage, ToggleOurV
   return (<div className='AboutTabs'>
     <div className='AboutTabs-Wrapper'>
 
-      <p className='AboutTabs-Title'>About Starck</p>
+      <p className='AboutTabs-Title'>About The Washington Design Center</p>
 
       <div className='AboutTabs-Tabs'>
         <div className='AboutTabs-Tab AboutTabs-Tab1' onClick={ToggleWhoWeAre}>
@@ -97,7 +97,7 @@ export default function AboutTabs({ToggleWhoWeAre, ToggleOurHeritage, ToggleOurV
             </p>
             <br></br>
             <p className='AboutTabs-TextBoxText'>
-              At Starck we:</p>
+              At The Washington Design Center we:</p>
             <br></br>
             <ul className='AboutTabs-HistoryList'>
               <li className='AboutTabs-HistoryListItem'>

@@ -1,0 +1,57 @@
+.Corporate {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.Corporate-Wrapper {
+  width: 100%;
+}
+
+.Corporate-TitleBlock {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e3e3e3;
+  margin-bottom: 40px;
+}
+
+.Corporate-Title {
+  font-size: 22px;
+  font-weight: 800;
+  color: #585858;
+}
+
+.BuyButton {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(61, 155, 206);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.BuyButton:hover {
+  background-color: rgb(47, 126, 169);
+}
+
+.BuyButtonText {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 500;
+}
+@media screen and (max-width: 1000px) {
+  .Corporate {
+    margin-top: 60px;
+  }
+
+  .Corporate-TitleBlock {
+    padding-left: 20px;
+  }
+
+  .BuyButton {
+    margin-right: 30px;
+  }
+}

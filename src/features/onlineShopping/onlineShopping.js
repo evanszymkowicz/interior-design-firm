@@ -25,7 +25,7 @@ export default function PurchaseBar() {
 
         <div className='PurchaseBar-Store'>
           <div className='PurchaseBar-StoreIcon'></div>
-          <p className='PurchaseBar-StoreText'>Starck Store</p>
+          <p className='PurchaseBar-StoreText'>The Washington Design Center Store</p>
         </div>
 
         <Link to='/find-a-dealer' className='PurchaseBar-Dealer'>

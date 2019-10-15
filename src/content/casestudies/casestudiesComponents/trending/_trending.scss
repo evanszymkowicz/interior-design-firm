@@ -1,0 +1,89 @@
+.TrendingStudies {
+  width: 400px;
+  margin-left: 10px;
+}
+
+.TrendingStudies-Wrapper {
+  width: 100%;
+  text-align: left;
+}
+
+.TrendingStudies-Title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.TrendingStudies-Card {
+  width: 100%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.TrendingStudies-CardImage {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(227, 227, 227);
+  cursor: pointer;
+}
+
+.TrendingStudies-CardImage1 {
+  background: url("../../../../Assets/Images/Research/TrendingStudies1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.TrendingStudies-CardImage2 {
+  background: url("../../../../Assets/Images/Research/TrendingStudies2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.TrendingStudies-CardImage3 {
+  background: url("../../../../Assets/Images/Research/TrendingStudies3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.TrendingStudies-CardImage4 {
+  background: url("../../../../Assets/Images/Research/TrendingStudies4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.TrendingStudies-CardTextBox {
+  padding: 10px;
+}
+
+.TrendingStudies-CardCategory {
+  font-size: 14px;
+  color: #585858;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.TrendingStudies-CardTitle {
+  padding: 0 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #191919;
+  cursor: pointer;
+}
+
+.TrendingStudies-CardTitle:hover {
+  color: #585858;
+}
+@media screen and (max-width: 1200px) {
+  .TrendingStudies {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .TrendingStudies {
+    display: none;
+  }
+}

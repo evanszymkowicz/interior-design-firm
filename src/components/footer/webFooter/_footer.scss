@@ -20,15 +20,15 @@
   height: 100%;
   display: flex;
 
-  .FullFooter-LinksColumn {
+  .footer-LinksColumn {
     margin-right: 90px;
     padding-top: 50px;
 
-    .FullFooterLinksTitle {
+    .footerLinksTitle {
 
     }
 
-    .FullFooter-ListItem {
+    .footer-ListItem {
       padding-top: 10px;
       white-space: nowrap;
       font-size: 13px;
@@ -38,42 +38,42 @@
   }
 }
 
-.FullFooter-Social {
+.footer-Social {
   padding-top: 50px;
 
-  .FullFooter-SocialTags {
+  .footer-SocialTags {
     display: flex;
     margin-bottom: 20px;
     margin-top: 20px;
 
-    .FullFooter-SocialTag {
+    .footer-SocialTag {
       width: 20px;
       height: 20px;
       margin-right: 30px;
     }
 
-    .FullFooter-SocialTag1 {
+    .footer-SocialTag1 {
       background: url("../../../Assets/Icons/InstagramLogo.svg");
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;
     }
 
-    .FullFooter-SocialTag2 {
+    .footer-SocialTag2 {
       background: url("../../../Assets/Icons/Facebooklogo.svg");
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;
     }
 
-    .FullFooter-SocialTag3 {
+    .footer-SocialTag3 {
       background: url("../../../Assets/Icons/TwitterLogo.svg");
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;
     }
 
-    .FullFooter-SocialTag4 {
+    .footer-SocialTag4 {
       background: url("../../../Assets/Icons/PintrestLogoMini.svg");
       background-position: center;
       background-size: contain;
@@ -81,7 +81,7 @@
     }
   }
 
-  .FulLFooter-ContactUsText {
+  .footer-ContactUsText {
     font-size: 14px;
     font-weight: 500;
     color: rgb(184, 184, 184);
@@ -89,7 +89,7 @@
   }
 }
 
-.FullFooter-copyright {
+.footer-copyright {
   position: absolute;
   bottom: 0;
   margin-bottom: 10px;
@@ -100,7 +100,7 @@
   color: rgb(184, 184, 184);
 }
 
-.FullFooter-Title {
+.footer-Title {
   font-size: 14px;
   font-weight: 400;
   color: rgb(184, 184, 184);
@@ -108,17 +108,17 @@
   margin-bottom: 10px;
 }
 
-.FullFooter-List {
+.footer-List {
   list-style: none;
 }
 
 @media screen and (max-width: 1200px) {
-  .FullFooter-Wrapper {
+  .footer-Wrapper {
     max-width: 980px;
   }
 }
 @media screen and (max-width: 1000px) {
-  .FullFooter {
+  .footer {
     display: none;
   }
 }

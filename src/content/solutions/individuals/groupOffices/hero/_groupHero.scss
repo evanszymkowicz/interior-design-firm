@@ -1,0 +1,114 @@
+.GroupHero {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.GroupHero-Wrapper {
+  width: 100%;
+}
+
+.GroupHero-Image {
+  width: 100%;
+  height: 550px;
+  background: url("../../../../../Assets/Images/Group/GroupHero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.GroupHero-WhiteBox {
+  width: 330px;
+  height: 200px;
+  background-color: #FFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.GroupHero-WhiteBox-Top {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #191919;
+}
+
+.GroupHero-WhiteBox-Title {
+  font-size: 16px;
+  color: #FFF;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.GroupHero-WhiteBox-Text {
+  font-size: 14px;
+  color: #9a9a9a;
+  padding: 20px;
+  line-height: 20px;
+}
+
+.GroupHero-Button {
+  width: 90%;
+  height: 30px;
+  background-color: #585858;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.GroupHero-Button:hover {
+  background-color: #717171;
+}
+
+.GroupHero-Mobile-TextBox {
+  width: 100%;
+  padding: 20px;
+  display: none;
+}
+
+.GroupHero-Mobile-Title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #191919;
+  margin-bottom: 10px;
+}
+
+.GroupHero-Mobile-Text {
+  font-size: 14px;
+  color: #9a9a9a;
+  width: 70%;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .GroupHero-Image {
+    height: 450px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .GroupHero-Mobile-TextBox {
+    display: block;
+  }
+
+  .GroupHero-WhiteBox {
+    display: none;
+  }
+
+  .GroupHero-Image {
+    height: 40vw;
+  }
+
+  .GroupHero-Button {
+    margin: 0;
+    width: 200px;
+  }
+}

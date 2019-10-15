@@ -7,7 +7,7 @@ export default function Nav() {
     <div className='Nav-Wrapper'>
       <div className='Nav-TopRow'>
         <Link to='/'>
-          <h1 className='Nav-Logo'>Starck</h1>
+          <h1 className='Nav-Logo'>The Washington Design Center</h1>
         </Link>
         <div className='Nav-UserLinks-Wrapper'>
           <Link to='/registration' className='Nav-RegistrationLink'>
@@ -40,7 +40,7 @@ export default function Nav() {
         <Link to='/find-a-dealer'>
           <div className='Nav-Dealer-Wrapper'>
             <div className='Nav-Dealer-Icon'></div>
-            <p className='Nav-Dealer-Text'>Find A Dealer</p>
+            <p className='Nav-Dealer-Text'>Find A Showroom</p>
           </div>
         </Link>
 

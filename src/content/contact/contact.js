@@ -14,7 +14,7 @@ export default function ContactUs() {
         <div className='ContactUs-TextBox'>
           <p className='ContactUs-Text'>We would love to hear from you! Use this form to contact us for sales requests, career information, investor relations, corporate information, or general questions.</p>
           <p className='ContactUs-Text'>For warranty information, or to purchase replacement parts/keys, please contact a local authorized dealer.</p>
-          <p className='ContactUs-Text'>Sales questions? Call us at 888.STARCK</p>
+          <p className='ContactUs-Text'>Sales questions? Call us at 888.The Washington Design Center</p>
         </div>
 
         <form action='post' className='ContactUs-Form'>

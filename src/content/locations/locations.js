@@ -38,7 +38,7 @@ export default function Dealer() {
               </div>
               <div className='Dealer-CardRight'>
 
-                <p className='Dealer-Card-Text'>Authorized Starck Dealer, GSA</p>
+                <p className='Dealer-Card-Text'>Authorized The Washington Design Center Dealer, GSA</p>
                 <div className='Dealer-Card-Button'>
                   Get Directions
                 </div>
@@ -58,7 +58,7 @@ export default function Dealer() {
               </div>
               <div className='Dealer-CardRight'>
 
-                <p className='Dealer-Card-Text'>Authorized Starck Dealer, GSA</p>
+                <p className='Dealer-Card-Text'>Authorized The Washington Design Center Dealer, GSA</p>
                 <div className='Dealer-Card-Button'>
                   Get Directions
                 </div>
@@ -78,7 +78,7 @@ export default function Dealer() {
               </div>
               <div className='Dealer-CardRight'>
 
-                <p className='Dealer-Card-Text'>Authorized Starck Dealer, GSA</p>
+                <p className='Dealer-Card-Text'>Authorized The Washington Design Center Dealer, GSA</p>
                 <div className='Dealer-Card-Button'>
                   Get Directions
                 </div>
@@ -100,7 +100,7 @@ export default function Dealer() {
               </div>
               <div className='Dealer-CardRight'>
 
-                <p className='Dealer-Card-Text'>Authorized Starck Dealer, GSA</p>
+                <p className='Dealer-Card-Text'>Authorized The Washington Design Center Dealer, GSA</p>
                 <div className='Dealer-Card-Button'>
                   Get Directions
                 </div>
@@ -120,7 +120,7 @@ export default function Dealer() {
               </div>
               <div className='Dealer-CardRight'>
 
-                <p className='Dealer-Card-Text'>Authorized Starck Dealer, GSA</p>
+                <p className='Dealer-Card-Text'>Authorized The Washington Design Center Dealer, GSA</p>
                 <div className='Dealer-Card-Button'>
                   Get Directions
                 </div>
@@ -140,7 +140,7 @@ export default function Dealer() {
               </div>
               <div className='Dealer-CardRight'>
 
-                <p className='Dealer-Card-Text'>Authorized Starck Dealer, GSA</p>
+                <p className='Dealer-Card-Text'>Authorized The Washington Design Center Dealer, GSA</p>
                 <div className='Dealer-Card-Button'>
                   Get Directions
                 </div>
@@ -160,7 +160,7 @@ export default function Dealer() {
               </div>
               <div className='Dealer-CardRight'>
 
-                <p className='Dealer-Card-Text'>Authorized Starck Dealer, GSA</p>
+                <p className='Dealer-Card-Text'>Authorized The Washington Design Center Dealer, GSA</p>
                 <div className='Dealer-Card-Button'>
                   Get Directions
                 </div>
@@ -182,7 +182,7 @@ export default function Dealer() {
               </div>
               <div className='Dealer-CardRight'>
 
-                <p className='Dealer-Card-Text'>Authorized Starck Dealer, GSA</p>
+                <p className='Dealer-Card-Text'>Authorized The Washington Design Center Dealer, GSA</p>
                 <div className='Dealer-Card-Button'>
                   Get Directions
                 </div>

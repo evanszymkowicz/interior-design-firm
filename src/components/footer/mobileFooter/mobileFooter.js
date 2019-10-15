@@ -45,7 +45,7 @@ export default function MobileFooter ({
           <li className='MobileFooter-TabsListItem'>Careers</li>
           <li className='MobileFooter-TabsListItem'>Diversity + Inclusion</li>
           <li className='MobileFooter-TabsListItem'>Community Relations</li>
-          <li className='MobileFooter-TabsListItem'>Starck Foundation</li>
+          <li className='MobileFooter-TabsListItem'>The Washington Design Center Foundation</li>
           <li className='MobileFooter-TabsListItem'>Supplies</li>
           <li className='MobileFooter-TabsListItem'>Supplier Diversity</li>
           <li className='MobileFooter-TabsListItem'>Marketplace</li>

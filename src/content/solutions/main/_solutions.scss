@@ -1,0 +1,33 @@
+.SolutionsPage {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.SolutionsPage-Wrapper {
+  width: 100%;
+}
+
+.SolutionsPage-TitleBlock {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #e3e3e3;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.SolutionsPage-Title {
+  font-size: 22px;
+  font-weight: 800;
+  color: #585858;
+}
+@media screen and (max-width: 1000px) {
+  .SolutionsPage {
+    margin-top: 60px;
+  }
+
+  .SolutionsPage-Title {
+    margin-left: 20px;
+  }
+}

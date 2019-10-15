@@ -1,0 +1,92 @@
+.FirstArticle {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.FirstArticle-Wrapper {
+  width: 100%;
+  text-align: left;
+  display: flex;
+}
+
+.FirstArticle-Image {
+  width: 500px;
+  height: 350px;
+  background: url("../../../Assets/Images/Inspiration/FirstArticle.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.FirstArticle-TextBox {
+  margin-left: 30px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.FirstArticle-Title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #191919;
+  margin-bottom: 10px;
+  margin-top: 60px;
+}
+
+.FirstArticle-Text {
+  font-size: 14px;
+  color: #9a9a9a;
+  line-height: 20px;
+  margin-bottom: 70px;
+  width: 80%;
+}
+
+.FirstArticle-Button {
+  width: 170px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.FirstArticle-ButtonText {
+  font-size: 14px;
+  color: #191919;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.FirstArticle-ButtonIcon {
+  width: 60%;
+  height: 60%;
+  background: url("../../../Assets/Icons/GreyCircleArrow.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1000px) {
+  .FirstArticle-Wrapper {
+    flex-direction: column;
+  }
+
+  .FirstArticle-TextBox {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .FirstArticle-Text {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .FirstArticle-Title {
+    margin-top: 20px;
+  }
+
+  .FirstArticle-Image {
+    width: 100%;
+    height: 60vw;
+  }
+}
