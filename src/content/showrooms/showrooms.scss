@@ -3,11 +3,11 @@
   margin-top: 100px;
 }
 
-.Dealer-Wrapper {
+.Showroom-Wrapper {
   width: 100%;
 }
 
-.Dealer-TitleBlock {
+.Showroom-TitleBlock {
   width: 100%;
   height: 60px;
   border-bottom: 1px solid #e3e3e3;
@@ -17,13 +17,13 @@
   margin-bottom: 40px;
 }
 
-.Dealer-Title {
+.Showroom-Title {
   font-size: 22px;
   font-weight: 800;
   color: #585858;
 }
 
-.Dealer-Content {
+.Showroom-Content {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -31,12 +31,12 @@
   padding-top: 10px;
 }
 
-.Dealer-CardWrap {
+.Showroom-CardWrap {
   width: 40%;
   padding: 10px 0;
 }
 
-.Dealer-Card {
+.Showroom-Card {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -45,11 +45,11 @@
   margin-bottom: 10px;
 }
 
-.Dealer-CardLeft {
+.Showroom-CardLeft {
   text-align: left;
 }
 
-.Dealer-CardRight {
+.Showroom-CardRight {
   text-align: right;
   display: flex;
   flex-direction: column;
@@ -58,24 +58,24 @@
   padding-right: 10px;
 }
 
-.Dealer-Card-Title {
+.Showroom-Card-Title {
   font-size: 14px;
   font-weight: 600;
   color: #191919;
   white-space: nowrap;
 }
 
-.Dealer-Card-Text {
+.Showroom-Card-Text {
   font-size: 14px;
   font-weight: 400;
   color: #9a9a9a;
   margin-bottom: 5px;
 }
 
-.Dealer-Card-Button {
+.Showroom-Card-Button {
   width: 120px;
   height: 30px;
-  background-color: #FFF;
+  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,38 +85,38 @@
   font-size: 12px;
 }
 
-.Dealer-Card-Button:hover {
+.Showroom-Card-Button:hover {
   background-color: #585858;
-  color: #FFF;
+  color: #fff;
   cursor: pointer;
 }
 
-.Dealer-Map {
+.Showroom-Map {
   width: 59%;
   height: 550px;
 }
 @media screen and (max-width: 1000px) {
-  .Dealer {
+  .Showroom {
     margin-top: 60px;
   }
 
-  .Dealer-Content {
+  .Showroom-Content {
     flex-direction: column;
     align-items: center;
   }
 
-  .Dealer-CardWrap {
+  .Showroom-CardWrap {
     width: 90%;
     align-self: flex-start;
     padding-left: 20px;
   }
 
-  .Dealer-Map {
+  .Showroom-Map {
     width: 95%;
     height: 80vh;
   }
 
-  .Dealer-Title {
+  .Showroom-Title {
     padding-left: 20px;
   }
 }

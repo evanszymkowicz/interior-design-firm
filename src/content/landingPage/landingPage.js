@@ -1,10 +1,10 @@
 import React from 'react';
-import './Landing.scss';
-import LandingHero from './LandingComps/Hero/LandingHero';
-import WhatsNew from './LandingComps/WhatsNew/WhatsNew';
-import Featured from './LandingComps/Featured/Featured';
-import LandingResearch from './LandingComps/Research/LandingResearch';
-import News from './LandingComps/News/News';
+import './_Landing.scss';
+import LandingHero from './landingComponents/hero/hero';
+import WhatsNew from './landingComponents/whatsNew/whatsNew';
+import Featured from './landingComponents/featured/featured';
+import CaseStudies from './landingComponents/caseStudies/caseStudies';
+import News from './landingComponents/news/news';
 
 export default function LandingPage() {
   return (
@@ -13,7 +13,7 @@ export default function LandingPage() {
         <LandingHero />
         <WhatsNew />
         <Featured />
-        <LandingResearch />
+        <CaseStudies />
         <News />
       </div>
     </div>

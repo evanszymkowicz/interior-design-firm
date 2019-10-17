@@ -1,5 +1,5 @@
 import React from 'react';
-import './caseStudies.scss';
+import './_caseStudies.scss';
 
 export default function CaseStudies() {
   return (<div className='CaseStudies'>

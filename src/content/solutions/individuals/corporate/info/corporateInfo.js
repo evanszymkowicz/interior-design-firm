@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './corporateInfo.scss';
+import './_corporateInfo.scss';
 
 export default class CorporateInfoBar extends Component {
   constructor(props) {

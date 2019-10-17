@@ -1,5 +1,5 @@
 import React from 'react';
-import './suitesHook.scss';
+import './_suitesHook.scss';
 
 export default function SuitesHook() {
   return (

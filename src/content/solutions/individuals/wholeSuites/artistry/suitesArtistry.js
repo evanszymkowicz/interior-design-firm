@@ -1,5 +1,5 @@
 import React from 'react';
-import './suitesArtistry.scss';
+import './_suitesArtistry.scss';
 
 export default function SuitesArtistry() {
   return (

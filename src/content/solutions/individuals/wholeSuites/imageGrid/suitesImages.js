@@ -1,5 +1,5 @@
 import React from 'react';
-import './suitesImages.scss';
+import './_suitesImages.scss';
 
 export default function SuitesImageGrid() {
   return (

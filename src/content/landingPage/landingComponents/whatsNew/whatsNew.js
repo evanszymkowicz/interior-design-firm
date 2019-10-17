@@ -1,5 +1,5 @@
 import React from 'react';
-import './whatsNew.scss';
+import './_whatsNew.scss';
 
 export default function WhatsNew() {
   return (

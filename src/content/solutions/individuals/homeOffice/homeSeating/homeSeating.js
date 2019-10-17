@@ -1,5 +1,5 @@
 import React from 'react';
-import './homeSeating.scss';
+import './_homeSeating.scss';
 
 export default function HomeSeating() {
   return (<div className='HomeSeating'>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './solutionsIntro.scss';
+import './_solutionsIntro.scss';
 
 export default function SolutionsIntro() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import './suitesClosing.scss';
+import './_suitesClosing.scss';
 
 export default function SuitesClosing() {
     return (

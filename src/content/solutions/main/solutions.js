@@ -1,7 +1,7 @@
 import React from 'react';
 import SolutionsIntro from './MainSolutionsComponents/intro/intro';
 import SolutionsContainer from './MainSolutionsComponents/container/solutionsContainer';
-import './solutions.scss';
+import './_solutions.scss';
 
 export default function SolutionsPage() {
   return (

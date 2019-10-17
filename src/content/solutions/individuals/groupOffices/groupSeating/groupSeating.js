@@ -1,5 +1,5 @@
 import React from 'react';
-import './_groupSeating.scss';
+import './__groupSeating.scss';
 
 export default function GroupSeating() {
   return (<div className='GroupSeating'>

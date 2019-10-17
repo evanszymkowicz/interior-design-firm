@@ -1,5 +1,5 @@
 import React from 'react';
-import './aboutTabs.scss';
+import './_aboutTabs.scss';
 
 export default function AboutTabs({ToggleWhoWeAre, ToggleOurHeritage, ToggleOurValues, ToggleOurLocation, ActiveTabStatus}) {
 
@@ -53,13 +53,13 @@ export default function AboutTabs({ToggleWhoWeAre, ToggleOurHeritage, ToggleOurV
           <p className={Tab1Classes}>Who We Are</p>
         </div>
         <div className='AboutTabs-Tab AboutTabs-Tab2' onClick={ToggleOurHeritage}>
-          <p className={Tab2Classes}>Our Heritage</p>
+          <p className={Tab2Classes}>Our Experience</p>
         </div>
         <div className='AboutTabs-Tab AboutTabs-Tab3' onClick={ToggleOurValues}>
-          <p className={Tab3Classes}>Our Values</p>
+          <p className={Tab3Classes}>Our Projects</p>
         </div>
         <div className='AboutTabs-Tab AboutTabs-Tab4' onClick={ToggleOurLocation}>
-          <p className={Tab4Classes}>Our Locations</p>
+          <p className={Tab4Classes}>Our Showrooms</p>
         </div>
       </div>
 
@@ -79,7 +79,7 @@ export default function AboutTabs({ToggleWhoWeAre, ToggleOurHeritage, ToggleOurV
 
         <div className={Card2Classes}>
           <div className='AboutTabs-TextBox'>
-            <p className='AboutTabs-TextBoxTitle'>History</p>
+            <p className='AboutTabs-TextBoxTitle'>Our Experience</p>
             <p className='AboutTabs-TextBoxText'>Lorem ipsum dolor sit amet, enim maluisset mei at. Malis quidam usu ei. Posse vocibus mel no, an affert everti constituam sit. Cu imperdiet omittantur sed, his at utroque mentitum repudiare. Sumo errem veniam ne vix vidit epicuri sadipscing ea his.</p>
             <br></br>
             <p className='AboutTabs-TextBoxText'>Eam at eirmod epicurei constituam. Usu te possim graecis forensibus, his at utroque mentitum repudiare. Sumo errem veniam ne vix, sea eros expetenda accusamus at.</p>
@@ -92,7 +92,7 @@ export default function AboutTabs({ToggleWhoWeAre, ToggleOurHeritage, ToggleOurV
 
         <div className={Card3Classes}>
           <div className='AboutTabs-TextBox'>
-            <p className='AboutTabs-TextBoxTitle'>Our Values</p>
+            <p className='AboutTabs-TextBoxTitle'>Our Projects</p>
             <p className='AboutTabs-TextBoxText'>More than 100 years ago, our founders made a commitment to do business differently. Our seven core values ground us and push us to do more and be better every day.
             </p>
             <br></br>
@@ -129,8 +129,8 @@ export default function AboutTabs({ToggleWhoWeAre, ToggleOurHeritage, ToggleOurV
 
         <div className={Card4Classes}>
           <div className='AboutTabs-TextBox'>
-            <p className='AboutTabs-TextBoxTitle'>Our Location</p>
-            <p className='AboutTabs-TextBoxText'>Building and Operating in Columbus, Ohio.</p>
+            <p className='AboutTabs-TextBoxTitle'>Our Showrooms</p>
+            <p className='AboutTabs-TextBoxText'>Operating in Greater Washington, D.C.</p>
             <br></br>
             <p className='AboutTabs-TextBoxText'>Lorem ipsum dolor sit amet, enim maluisset mei at. Malis quidam usu ei. Posse vocibus mel no, an affert everti constituam sit. Cu imperdiet omittantur sed, vidit epicuri sadipscing ea his.</p>
             <br></br>

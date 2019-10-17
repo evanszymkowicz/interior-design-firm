@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './hero.scss';
+import './_hero.scss';
 
 export default function LandingHero() {
   return (

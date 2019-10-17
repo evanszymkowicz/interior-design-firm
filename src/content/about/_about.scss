@@ -10,7 +10,7 @@
 .About-Image {
   width: 60%;
   height: 400px;
-  background: url("../../../Assets/Images/About/About.jpg");
+  background: url('./src/images/AboutHero.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,7 +55,7 @@
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: url("../../../Assets/Icons/GreyCircleArrow.svg");
+  background: url('./src/icons/GreyCircleArrow.svg');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

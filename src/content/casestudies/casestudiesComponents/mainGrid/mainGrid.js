@@ -1,5 +1,5 @@
 import React from 'react';
-import './mainGrid.scss';
+import './_mainGrid.scss';
 
 export default function MainGrid({
   Card1Status,

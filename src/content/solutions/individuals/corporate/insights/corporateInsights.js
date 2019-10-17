@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './corporateInsights.scss';
+import './_corporateInsights.scss';
 
 export default class CorporateInsights extends Component {
   constructor(props) {

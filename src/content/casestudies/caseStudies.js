@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import caseContainer from './caseStudies/container/CaseStudiesContainer';
-import './caseStudies.scss';
+import './_caseStudies.scss';
 
 export default class CaseStudies extends Component {
   constructor(props) {
@@ -79,7 +79,7 @@ export default class CaseStudies extends Component {
       <div className='CaseStudies-Wrapper'>
 
         <div className='CaseStudies-TitleBlock'>
-          <p className='CaseStudies-Title'>360 CaseStudies</p>
+          <p className='CaseStudies-Title'>Case Studies</p>
         </div>
 
         <CaseStudiesContainer Card1Status={this.state.Card1} Card2Status={this.state.Card2} Card3Status={this.state.Card3} Card4Status={this.state.Card4} Card5Status={this.state.Card5} Card6Status={this.state.Card6} Card7Status={this.state.Card7} Card8Status={this.state.Card8} ToggleCard1={this.Card1Active} ToggleCard2={this.Card2Active} ToggleCard3={this.Card3Active} ToggleCard4={this.Card4Active} ToggleCard5={this.Card5Active} ToggleCard6={this.Card6Active} ToggleCard7={this.Card7Active} ToggleCard8={this.Card8Active}/>

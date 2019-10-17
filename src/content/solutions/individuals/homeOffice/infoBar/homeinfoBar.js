@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './_homeinfoBar.scss';
+import './__homeinfoBar.scss';
 
 export default class HomeInfoBar extends Component {
   constructor(props) {

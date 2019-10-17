@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home1Range.scss';
+import './_Home1Range.scss';
 
 export default function Home1Range() {
   return (<div className='Home1Range'>

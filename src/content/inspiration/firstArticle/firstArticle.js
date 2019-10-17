@@ -1,5 +1,5 @@
 import React from 'react';
-import './FirstArticle.scss';
+import './_FirstArticle.scss';
 
 export default function FirstArticle() {
   return (
@@ -8,7 +8,7 @@ export default function FirstArticle() {
         <div className='FirstArticle-Image'></div>
         <div className='FirstArticle-TextBox'>
         <p className='FirstArticle-Title'>What Workers Want</p>
-        <p className='FirstArticle-Text'>Why are people migrating away from their desks? What kinds of spaces are they looking for? In our recent study, we found that monotony is a huge motivator.</p>
+        <p className='FirstArticle-Text'>Why are people moving away from offices? What kinds of spaces are they looking for? In our recent study, we found that monotony is a huge motivator.</p>
         <div className='FirstArticle-Button'>
           <p className='FirstArticle-ButtonText'>Read Article</p>
           <div className='FirstArticle-ButtonIcon'></div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './corporateHero.scss';
+import './_corporateHero.scss';
 
 export default function corporateHero() {
   return (<div className='corporateHero'>

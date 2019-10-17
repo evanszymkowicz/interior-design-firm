@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './featured.scss';
+import './_featured.scss';
 
 export default function Featured() {
   return (

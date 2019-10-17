@@ -1,5 +1,5 @@
 import React from 'react';
-import './hook.scss';
+import './_hook.scss';
 
 export default function InspirationHook() {
   return (<div className='InspirationHook'>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './lastArticle.scss';
+import './_lastArticle.scss';
 
 export default function LastArticle() {
   return (

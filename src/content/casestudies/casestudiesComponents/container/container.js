@@ -1,7 +1,7 @@
 import React from 'react';
 import MainGrid from '../MainGrid/mainGrid';
 import TrendingStudies from '../Trending/ResearchTrending';
-import './container.scss'
+import './_container.scss'
 
 export default function CaseStudiesContainer ({
   Card1Status,

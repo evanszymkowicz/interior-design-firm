@@ -6,7 +6,7 @@ import CorporateSeating from './Seating/CorporateSeating';
 import CorporatePlanning from './Planning/CorporatePlanning';
 import CorporateProducts from './ProductRange/CorporateProducts';
 import PurchaseBar from '../../../../Recycled/PurchaseBar/PurchaseBar';
-import './corporate.scss';
+import './_corporate.scss';
 
 export default function Corporate() {
   return (<div className='Corporate'>

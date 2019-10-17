@@ -1,5 +1,5 @@
 import React from 'react';
-import './MobileOverlay.scss';
+import './_MobileOverlay.scss';
 
 export default function MobileOverlay({ CloseNavDrawer, CloseUserDrawer }) {
     return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import './GroupHero.scss';
+import './_GroupHero.scss';
 
 export default function GroupHero() {
   return (

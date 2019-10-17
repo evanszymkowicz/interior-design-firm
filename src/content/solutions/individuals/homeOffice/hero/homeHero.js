@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home1Hero.scss';
+import './_Home1Hero.scss';
 
 export default function Home1Hero() {
   return (<div className='Home1Hero'>

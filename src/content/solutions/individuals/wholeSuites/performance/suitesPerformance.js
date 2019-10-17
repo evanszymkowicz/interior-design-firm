@@ -1,5 +1,5 @@
 import React from 'react';
-import './suitesPerformance.scss';
+import './_suitesPerformance.scss';
 
 export default function SuitesPerformance() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './SolutionsMenu.scss';
+import './_SolutionsMenu.scss';
 
 export default function SolutionsMenu() {
   return (<div className='SolutionsMenu'>

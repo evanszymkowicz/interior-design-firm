@@ -1,5 +1,5 @@
 import React from 'react';
-import './footer.scss';
+import './_footer.scss';
 
 export default function FullFooter() {
   return (<div className='footer'>
@@ -10,15 +10,15 @@ export default function FullFooter() {
           <ul className='footer-List'>
             <li className='footer-listitem'>About The Washington Design Center</li>
             <li className='footer-listitem'>Careers</li>
-            <li className='footer-listitem'>Diversity + Inclusion</li>
+            <li className='footer-listitem'>Accessibility</li>
             <li className='footer-listitem'>Community</li>
-            <li className='footer-listitem'>The Washington Design Center Foundation</li>
+            <li className='footer-listitem'>Charitable Giving</li>
             <li className='footer-listitem'>Suppliers</li>
             <li className='footer-listitem'>Marketplace</li>
           </ul>
         </div>
         <div className='footer-LinksColumn'>
-          <p className='footerLinksTitle footer-Title'>Customer Care</p>
+          <p className='footerLinksTitle footer-Title'>Customer Support</p>
           <ul className='footer-List'>
             <li className='footer-listitem'>Site Feedback</li>
             <li className='footer-listitem'>FAQ's</li>
@@ -26,7 +26,7 @@ export default function FullFooter() {
             <li className='footer-listitem'>Warranty</li>
             <li className='footer-listitem'>Tech Support</li>
             <li className='footer-listitem'>Notifications</li>
-            <li className='footer-listitem'>Rocky Recalls</li>
+            <li className='footer-listitem'>Recall Notices</li>
           </ul>
         </div>
         <div className='footer-LinksColumn'>

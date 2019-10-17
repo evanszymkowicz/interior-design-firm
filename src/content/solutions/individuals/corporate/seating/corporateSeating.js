@@ -1,5 +1,5 @@
 import React from 'react';
-import './corporateSeating.scss';
+import './_corporateSeating.scss';
 
 export default function CorporateSeating() {
   return (<div className='CorporateSeating'>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './suitesInnovations.scss';
+import './_suitesInnovations.scss';
 
 export default function SuitesInnovations() {
   return (<div className='SuitesInnovations'>

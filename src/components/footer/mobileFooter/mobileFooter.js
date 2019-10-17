@@ -1,5 +1,5 @@
 import React from 'react';
-import './mobileFooter.scss';
+import './_mobileFooter.scss';
 
 export default function MobileFooter ({
   ToggleFooterTab1,
@@ -43,18 +43,18 @@ export default function MobileFooter ({
       <div className={FooterLinks1Classes}>
         <ul className='MobileFooter-TabsList'>
           <li className='MobileFooter-TabsListItem'>Careers</li>
-          <li className='MobileFooter-TabsListItem'>Diversity + Inclusion</li>
+          <li className='MobileFooter-TabsListItem'>Accessibility</li>
           <li className='MobileFooter-TabsListItem'>Community Relations</li>
-          <li className='MobileFooter-TabsListItem'>The Washington Design Center Foundation</li>
+          <li className='MobileFooter-TabsListItem'>Charitable Giving</li>
           <li className='MobileFooter-TabsListItem'>Supplies</li>
-          <li className='MobileFooter-TabsListItem'>Supplier Diversity</li>
-          <li className='MobileFooter-TabsListItem'>Marketplace</li>
+          <li className='MobileFooter-TabsListItem'>Supplier Information</li>
+          <li className='MobileFooter-TabsListItem'>Store</li>
         </ul>
       </div>
 
       <div className='MobileFooter-Tab MobileFooter-Tab1' onClick={ToggleFooterTab2}>
         <p className='MobileFooter-AdditionSymbol'>+</p>
-        <p className='MobileFooter-TabTitle'>Customer Care</p>
+        <p className='MobileFooter-TabTitle'>Customer Support</p>
       </div>
       <div className={FooterLinks2Classes}>
         <ul className='MobileFooter-TabsList'>
@@ -64,7 +64,7 @@ export default function MobileFooter ({
           <li className='MobileFooter-TabsListItem'>Warranty</li>
           <li className='MobileFooter-TabsListItem'>Tech Support</li>
           <li className='MobileFooter-TabsListItem'>Notifications</li>
-          <li className='MobileFooter-TabsListItem'>Rocky Recalls</li>
+          <li className='MobileFooter-TabsListItem'>Recall Notices</li>
         </ul>
       </div>
 

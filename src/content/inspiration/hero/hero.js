@@ -1,5 +1,5 @@
 import React from 'react';
-import './hero.scss';
+import './_hero.scss';
 
 export default function InspirationHero() {
   return (

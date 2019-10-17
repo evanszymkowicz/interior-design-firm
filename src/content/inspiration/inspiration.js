@@ -4,7 +4,7 @@ import InspirationOpening from './OpeningArticle/InspirationOpening';
 import InspirationHook from './Hook/InspirationHook';
 import InspirationGrid from './Grid/InspirationGrid';
 import InspirationClosing from './Closing Article/InspirationClosing';
-import './inspiration.scss';
+import './_inspiration.scss';
 
 export default function Inspiration() {
   return (

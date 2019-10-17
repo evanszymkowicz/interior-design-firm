@@ -1,5 +1,5 @@
 import React from 'react';
-import './online.scss';
+import './_online.scss';
 
 export default function Store() {
     return (

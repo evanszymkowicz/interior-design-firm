@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './groupInfo.scss';
+import './_groupInfo.scss';
 
 export default class GroupInfoBar extends Component {
   constructor(props) {

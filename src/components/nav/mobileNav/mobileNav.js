@@ -1,5 +1,5 @@
 import React from 'react';
-import './mobileNav.scss';
+import './_mobileNav.scss';
 
 import { Link } from 'react-router-dom';
 

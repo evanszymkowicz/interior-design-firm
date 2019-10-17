@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './nav.scss';
+import './_nav.scss';
 
 export default function Nav() {
   return (<div className='Nav'>

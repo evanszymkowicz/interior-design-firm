@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './GroupInsight.scss';
+import './_GroupInsight.scss';
 
 export default class GroupInsight extends Component {
   constructor(props) {

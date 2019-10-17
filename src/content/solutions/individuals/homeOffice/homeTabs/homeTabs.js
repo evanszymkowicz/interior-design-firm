@@ -1,5 +1,5 @@
 import React from 'react';
-import './homeTabs.scss';
+import './_homeTabs.scss';
 
 export default function HomeTabs() {
   return (

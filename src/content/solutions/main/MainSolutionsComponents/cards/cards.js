@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './cards.scss';
+import './_cards.scss';
 
 export default function Cards() {
   return (
