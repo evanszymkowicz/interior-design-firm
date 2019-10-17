@@ -12,7 +12,7 @@
 .HomeTabs-Image {
   width: 70%;
   height: 350px;
-  background: url("../.././src/images//Series1/Series1Video.jpg");
+  background: url('./images/inspirationGrid.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -42,7 +42,7 @@
   width: 150px;
   height: 25px;
   background-color: #848484;
-  color: #FFF;
+  color: #fff;
   font-size: 14px;
   font-weight: 600;
   display: flex;

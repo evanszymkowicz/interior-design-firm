@@ -5,9 +5,7 @@ export default function TrendingStudies() {
   return (
     <div className="TrendingStudies">
       <div className="TrendingStudies-Wrapper">
-
         <p className="TrendingStudies-Title">Trending</p>
-
         <div className="TrendingStudies-Card">
           <div className="TrendingStudies-CardImage TrendingStudies-CardImage1" />
           <div className="TrendingStudies-CardTextBox">
@@ -15,7 +13,6 @@ export default function TrendingStudies() {
             <p className="TrendingStudies-CardTitle">Driving Culture Change at NameLogo HQ</p>
           </div>
         </div>
-
         <div className="TrendingStudies-Card">
           <div className="TrendingStudies-CardImage TrendingStudies-CardImage2" />
           <div className="TrendingStudies-CardTextBox">
@@ -23,7 +20,6 @@ export default function TrendingStudies() {
             <p className="TrendingStudies-CardTitle">Active Learning Center Grant Launches Fifth Cycle</p>
           </div>
         </div>
-
         <div className="TrendingStudies-Card">
           <div className="TrendingStudies-CardImage TrendingStudies-CardImage3" />
           <div className="TrendingStudies-CardTextBox">
@@ -31,7 +27,6 @@ export default function TrendingStudies() {
             <p className="TrendingStudies-CardTitle">New Office</p>
           </div>
         </div>
-
         <div className="TrendingStudies-Card">
           <div className="TrendingStudies-CardImage TrendingStudies-CardImage4" />
           <div className="TrendingStudies-CardTextBox">
@@ -39,7 +34,6 @@ export default function TrendingStudies() {
             <p className="TrendingStudies-CardTitle">Starck and Microsoft: Bridge the Creative Gap</p>
           </div>
         </div>
-
       </div>
     </div>
   );

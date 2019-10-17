@@ -5,21 +5,16 @@ export default function ContactUs() {
   return (
     <div className="ContactUs">
       <div className="ContactUs-Wrapper">
-
         <div className="ContactUs-TitleBlock">
           <p className="ContactUs-Title">Contact Us</p>
         </div>
-
         <div className="ContactUs-Content">
-
           <div className="ContactUs-TextBox">
             <p className="ContactUs-Text">We would love to hear from you! Use this form to contact us for sales requests, career information, solutions, corporate information, or general questions.</p>
             <p className="ContactUs-Text">For warranty information, or to purchase replacement parts/keys, please contact your nearest showroom.</p>
             <p className="ContactUs-Text">Sales questions? Call us at The Washington Design Center</p>
           </div>
-
           <form action="post" className="ContactUs-Form">
-
             <div className="ContactUs-Form-Row">
               <div className="ContactUs-InputWrap">
                 <label htmlFor="ContactReason" className="ContactUs-Label">I AM CONTACTING YOU ABOUT:*</label>

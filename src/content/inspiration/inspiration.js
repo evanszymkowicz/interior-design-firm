@@ -1,24 +1,24 @@
 import React from 'react';
-import InspirationHero from './Hero/InspirationHero';
-import InspirationOpening from './OpeningArticle/InspirationOpening';
-import InspirationHook from './Hook/InspirationHook';
-import InspirationGrid from './Grid/InspirationGrid';
-import InspirationClosing from './Closing Article/InspirationClosing';
+import InspirationHero from './hero/hero';
+import FirstArticle from './firstArticle/firstArticle';
+import InspirationHook from './hook/hook';
+import InspirationGrid from './grid/grid';
+import LastArticle from './lastArticle/lastArticle';
 import './_inspiration.scss';
 
 export default function Inspiration() {
   return (
-    <div className='Inspiration'>
-      <div className='Inspiration-Wrapper'>
-        <div className='Inspiration-TitleBlock'>
-          <p className='Inspiration-Title'>Get Inspired</p>
-          </div>
-          <InspirationHero />
-          <InspirationOpening />
-          <InspirationHook />
-          <InspirationGrid />
-          <InspirationClosing />
-          </div>
+    <div className="Inspiration">
+      <div className="Inspiration-Wrapper">
+        <div className="Inspiration-TitleBlock">
+          <p className="Inspiration-Title">Get Inspired</p>
+        </div>
+        <InspirationHero />
+        <FirstArticle />
+        <InspirationHook />
+        <InspirationGrid />
+        <LastArticle />
+      </div>
     </div>
-  )
+  );
 }

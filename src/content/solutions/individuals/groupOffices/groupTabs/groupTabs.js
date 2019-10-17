@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './_GroupTabs.scss';
+import './_groupTabs.scss';
 
 export default class GroupTabs extends Component {
   constructor(props) {

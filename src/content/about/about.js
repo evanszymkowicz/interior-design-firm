@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="About">
       <div className="About-Wrapper">
-        <div className="About-Image" /
+        <div className="About-Image" />
         <div className="About-TextBox">
           <p className="About-Title">Our Team</p>
           <p className="About-Text">A commitment to excellence, creativity and innovation. Meet the people ready to help your business thrive.</p>

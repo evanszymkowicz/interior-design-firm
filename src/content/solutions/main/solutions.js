@@ -5,14 +5,14 @@ import './_solutions.scss';
 
 export default function SolutionsPage() {
   return (
-    <div className='SolutionsPage'>
-      <div className='SolutionsPage-Wrapper'>
-        <div className='SolutionsPage-TitleBlock'>
-          <p className='SolutionsPage-Title'>Solutions</p>
+    <div className="SolutionsPage">
+      <div className="SolutionsPage-Wrapper">
+        <div className="SolutionsPage-TitleBlock">
+          <p className="SolutionsPage-Title">Solutions</p>
         </div>
-        <SolutionsPageIntro />
-        <SolutionsPageContainer />
+        <SolutionsIntro />
+        <SolutionsContainer />
       </div>
-  </div>
-  )
+    </div>
+  );
 }

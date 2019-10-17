@@ -1,6 +1,5 @@
 .InfoBar {
   width: 100%;
-  margin-bottom: 60px;
 }
 
 .InfoBar-Menu {
@@ -34,6 +33,27 @@
   margin-right: 15px;
 }
 
+.InfoBar-Icon1 {
+  background: url('../.././icons/ImagesIcon.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.InfoBar-Icon2 {
+  background: url('../.././icons/MaterialsIcon.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.InfoBar-Icon3 {
+  background: url('../.././icons/DocumentsIcon.svg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .InfoBar-Text {
   font-size: 16px;
   font-weight: 500;
@@ -48,7 +68,7 @@
 .InfoBar-Arrow {
   width: 12px;
   height: 12px;
-  background: url("../././src/icons//GreyArrow.svg");
+  background: url('../.././icons/GreyArrow.svg');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -79,60 +99,59 @@
   min-width: 100px;
   height: 300px;
   margin: 5px 0;
-  background-color: #8bbcc0;
 }
 
-.CorporateInfoBar-ImagesCard-Image1 {
-  background: url("./images/Gesture/GestureImage1.jpg");
+.SuitesInfoBar-ImagesCard-Image1 {
+  background: url('../../../../../Assets/Images/Suites/SuitesImages1.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.CorporateInfoBar-ImagesCard-Image2 {
-  background: url("./images/Gesture/GestureImage2.jpg");
+.SuitesInfoBar-ImagesCard-Image2 {
+  background: url('../../../../../Assets/Images/Suites/SuitesImages2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.CorporateInfoBar-ImagesCard-Image3 {
-  background: url("./images/Gesture/GestureImage3.jpg");
+.SuitesInfoBar-ImagesCard-Image3 {
+  background: url('../../../../../Assets/Images/Suites/SuitesImages3.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.CorporateInfoBar-ImagesCard-Image4 {
-  background: url("./images/Gesture/GestureImage4.jpg");
+.SuitesInfoBar-ImagesCard-Image4 {
+  background: url('../../../../../Assets/Images/Suites/SuitesImages4.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.CorporateInfoBar-ImagesCard-Image5 {
-  background: url("./images/Gesture/GestureImage5.jpg");
+.SuitesInfoBar-ImagesCard-Image5 {
+  background: url('../../../../../Assets/Images/Suites/SuitesImages6.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.CorporateInfoBar-ImagesCard-Image6 {
-  background: url("./images/Gesture/GestureImage6.jpg");
+.SuitesInfoBar-ImagesCard-Image6 {
+  background: url('../../../../../Assets/Images/Suites/SuitesImages8.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.CorporateInfoBar-ImagesCard-Image7 {
-  background: url("./images/Gesture/GestureImage7.jpg");
+.SuitesInfoBar-ImagesCard-Image7 {
+  background: url('../../../../../Assets/Images/Suites/SuitesImages5.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.CorporateInfoBar-ImagesCard-Image8 {
-  background: url("./images/Gesture/GestureImage8.jpg");
+.SuitesInfoBar-ImagesCard-Image8 {
+  background: url('../../../../../Assets/Images/Suites/SuitesImages7.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -178,61 +197,61 @@
 }
 
 .InfoBar-MaterialsCard-Image-TextBox-Text {
-  color: #FFF;
+  color: #fff;
   font-weight: 600;
 }
 
-.CorporateInfoBar-MaterialsCard-Image1 {
-  background: url("./images/SILQ/SILQFabric1.png");
+.SuitesInfoBar-MaterialsCard-Image1 {
+  background: url('../../../../../Assets/Images/Suites/SuitesFabric1.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.CorporateInfoBar-MaterialsCard-Image2 {
-  background: url("./images/SILQ/SILQFabric2.png");
+.SuitesInfoBar-MaterialsCard-Image2 {
+  background: url('../../../../../Assets/Images/Suites/SuitesFabric2.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.CorporateInfoBar-MaterialsCard-Image3 {
-  background: url("./images/SILQ/SILQFabric3.png");
+.SuitesInfoBar-MaterialsCard-Image3 {
+  background: url('../../../../../Assets/Images/Suites/SuitesFabric3.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.CorporateInfoBar-MaterialsCard-Image4 {
-  background: url("./images/SILQ/SILQFabric4.png");
+.SuitesInfoBar-MaterialsCard-Image4 {
+  background: url('../../../../../Assets/Images/Suites/SuitesFabric4.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.CorporateInfoBar-MaterialsCard-Image5 {
-  background: url("./images/SILQ/SILQFabric5.png");
+.SuitesInfoBar-MaterialsCard-Image5 {
+  background: url('../../../../../Assets/Images/Suites/SuitesFabric5.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.CorporateInfoBar-MaterialsCard-Image6 {
-  background: url("./images/SILQ/SILQFabric6.png");
+.SuitesInfoBar-MaterialsCard-Image6 {
+  background: url('../../../../../Assets/Images/Suites/SuitesFabric6.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.CorporateInfoBar-MaterialsCard-Image7 {
-  background: url("./images/SILQ/SILQFabric7.png");
+.SuitesInfoBar-MaterialsCard-Image7 {
+  background: url('../../../../../Assets/Images/Suites/SuitesFabric7.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.CorporateInfoBar-MaterialsCard-Image8 {
-  background: url("./images/SILQ/SILQFabric8.png");
+.SuitesInfoBar-MaterialsCard-Image8 {
+  background: url('../../../../../Assets/Images/Suites/SuitesFabric8.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -266,8 +285,8 @@
   position: relative;
 }
 
-.CorporateInfoBar-DocumentsCard-Image1 {
-  background: url("./images/Gesture/GestureDocuments1.png");
+.SuitesInfoBar-DocumentsCard-Image1 {
+  background: url('../../../../../Assets/Images/Suites/SuitesDocuments.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

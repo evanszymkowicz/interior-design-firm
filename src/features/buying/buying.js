@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './__buying.scss';
+import './_buying.scss';
 
 export default function Buying() {
   return (
     <div className="Buying">
       <div className="Buying-Wrapper">
         <div className="Buying-TopRow">
-          <p className="Buying-Title">Purchase Options</p>
+          <p className="Buying-Title">Purchasing Options</p>
           <Link to="/contact">
             <div className="Buying-Button">
               <p className="Buying-ButtonText">Contact Us</p>

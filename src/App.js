@@ -1,33 +1,34 @@
 import React, { Component } from 'react';
 import './_app.scss';
-
-// react router
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // my components
-import Nav from '../components/nav/Nav/nav';
-import MobileNav from '../components/nav/mobileNav/mobileNav';
-import NavDrawer from '../components/mobileDrawers/navDrawer/navDrawer';
-import UserDrawer from '../components/mobileDrawers/userDrawer/userDrawer';
-import FullFooter from '../components/Footer/webFooter/footer';
-import MobileFooter from '../components/Footer/mobileFooter/mobileFooter';
+import Nav from './components/nav/Nav/Nav';
+import MobileNav from './components/nav/mobileNav/mobileNav';
+import NavDrawer from './components/mobileDrawers/navDrawer/navDrawer';
+import UserDrawer from './components/mobileDrawers/userDrawer/userDrawer';
+import FullFooter from './components/footer/webFooter/footer';
+import MobileFooter from './components/footer/mobileFooter/mobileFooter';
 
 // content
-import About from '../content/about/about';
-import CaseStudies from '../content/caseStudies';
-import ContactUs from '../content/contact';
-import Inspiration from '../content/inspiration';
-import LandingPage from '../content/landingPage/landingPage';
-import Solutions from '../content/solutions/main/solutions';
-import Showrooms from '../content/showrooms/showrooms';
-import Registration from '../content/register/register';
-import Corporate from '../content/corporate/corporate';
+import About from './content/about/about';
+import CaseStudies from './content/casestudies/caseStudies';
+import ContactUs from './content/contact/contact';
+import Inspiration from './content/inspiration/inspiration';
+import LandingPage from './content/landingPage/landingPage';
+import Solutions from './content/solutions/main/solutions';
+import Group from './content/solutions/individuals/groupOffices/group';
+import Home from './content/solutions/individuals/homeOffice/home';
+import Suites from './content/solutions/individuals/groupOffices/suites';
+import Showrooms from './content/showrooms/showrooms';
+import Registration from './content/register/register';
+import Corporate from './content/solutions/corporate/corporate';
 
 // features
-import Buying from '../features/buying/buying';
-import Scroll from '../features/scroll/scroll';
-import MobileOverlay from '../features/mobileOverlay/mobileOverlay';
-import OnlineShopping from '../features/onlineShopping/onlineShopping';
+import Buying from './features/buying/buying';
+import Scroll from './features/scroll/scroll';
+import MobileOverlay from './features/mobileOverlay/mobileOverlay';
+import OnlineShopping from './features/onlineShopping/onlineShopping';
 
 export default class App extends Component {
   constructor(props) {
@@ -130,7 +131,7 @@ export default class App extends Component {
                 <Route path="/registration" component={Registration} />
                 <Route path="/solutions/corporate" component={Corporate} />
                 <Route path="/solutions/group" component={Group} />
-                <Route path="/solutions/homeOffice" component={Gesture} />
+                <Route path="/solutions/homeOffice" component={Home} />
                 <Route path="/solutions/wholeSuites" component={Suites} />
               </Switch>
             </div>

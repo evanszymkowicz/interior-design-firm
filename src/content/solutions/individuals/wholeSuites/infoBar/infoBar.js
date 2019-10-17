@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './MaterialBar.scss';
+import './_infoBar.scss';
 
 export default class InfoBar extends Component {
   constructor(props) {

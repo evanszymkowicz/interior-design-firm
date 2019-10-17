@@ -3,7 +3,7 @@
   height: 330px;
   display: flex;
   justify-content: center;
-  background-color: #FFF;
+  background-color: #fff;
   margin-top: 80px;
 }
 
@@ -25,7 +25,6 @@
     padding-top: 50px;
 
     .footerLinksTitle {
-
     }
 
     .footer-ListItem {
@@ -53,28 +52,28 @@
     }
 
     .footer-SocialTag1 {
-      background: url("./src/icons/InstagramLogo.svg");
+      background: url('./icons/InstagramLogo.svg');
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;
     }
 
     .footer-SocialTag2 {
-      background: url("./src/icons/Facebooklogo.svg");
+      background: url('./icons/Facebooklogo.svg');
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;
     }
 
     .footer-SocialTag3 {
-      background: url("./src/icons/TwitterLogo.svg");
+      background: url('./icons/TwitterLogo.svg');
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;
     }
 
     .footer-SocialTag4 {
-      background: url("./src/icons/PintrestLogoMini.svg");
+      background: url('./icons/PintrestLogoMini.svg');
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;
@@ -111,7 +110,6 @@
 .footer-List {
   list-style: none;
 }
-
 @media screen and (max-width: 1200px) {
   .footer-Wrapper {
     max-width: 980px;

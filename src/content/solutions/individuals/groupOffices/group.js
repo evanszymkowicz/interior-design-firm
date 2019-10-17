@@ -1,10 +1,10 @@
 import React from 'react';
 import GroupHero from './hero/groupHero';
-import GroupInfoBar from './infoBar/groupinfoBar';
-import GroupTabs from './GroupTabs/GroupTabs';
-import GroupInsights from './GroupInsights/GroupInsight';
-import GroupSeating from './GroupSeating/GroupSeating';
-import PurchaseBar from '../../../../Recycled/PurchaseBar/PurchaseBar';
+import GroupInfoBar from './infoBar/groupInfo';
+import GroupTabs from './groupTabs/groupTabs';
+import GroupInsights from './groupInsights/groupInsights';
+import GroupSeating from './groupSeating/groupSeating';
+import PurchaseBar from './features/onlineShopping/onlineShopping';
 import './_group.scss';
 
 export default function Group() {

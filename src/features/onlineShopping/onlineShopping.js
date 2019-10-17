@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './__onlineShopping.scss';
+import './_onlineShopping.scss';
 
 export default function PurchaseBar() {
   return (

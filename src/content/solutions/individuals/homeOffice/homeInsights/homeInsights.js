@@ -1,18 +1,17 @@
 import React from 'react';
-import './_Home1Range.scss';
+import './_homeInsights.scss';
 
-export default function Home1Range() {
-  return (<div className='Home1Range'>
-    <div className='Home1Range-Wrapper'>
-
-      <p className='Home1Range-Title'>A Range of Spaces</p>
-
-      <div className='Home1Range-ImagesWrap'>
-        <div className='Home1Range-Image Home1Range-Image1'></div>
-        <div className='Home1Range-Image Home1Range-Image2'></div>
+export default function HomeInsights() {
+  return (
+    <div className="HomeInsights">
+      <div className="HomeInsights-Wrapper">
+        <p className="HomeInsights-Title">A Range of Spaces</p>
+        <div className="HomeInsights-ImagesWrap">
+          <div className="HomeInsights-Image HomeInsights-Image1" />
+          <div className="HomeInsights-Image HomeInsights-Image2" />
+        </div>
+        <p className="HomeInsights-Text">With a lightweight, slim profile and one of the smallest footprints - Starck Home 1 performs well in any setting, from collaboration to focus spaces</p>
       </div>
-      <p className='Home1Range-Text'>With a lightweight, slim profile and one of the smallest footprints - Starck Home 1 performs well in any setting, from collaboration to focus spaces</p>
-
     </div>
-  </div>)
+  );
 }

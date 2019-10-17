@@ -12,7 +12,7 @@
 .FirstArticle-Image {
   width: 500px;
   height: 350px;
-  background: url("./src/images//Inspiration/FirstArticle.jpg");
+  background: url('./src/images/FirstArticle.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -60,7 +60,7 @@
 .FirstArticle-ButtonIcon {
   width: 60%;
   height: 60%;
-  background: url("../../../Assets/Icons/GreyCircleArrow.svg");
+  background: url('./icons/GreyCircleArrow.svg');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
