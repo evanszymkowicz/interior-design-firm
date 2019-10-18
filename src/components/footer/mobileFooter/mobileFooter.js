@@ -1,5 +1,5 @@
 import React from 'react';
-import './_mobileFooter.scss';
+import './mobilefooter.scss';
 
 export default function MobileFooter({
   ToggleFooterTab1,

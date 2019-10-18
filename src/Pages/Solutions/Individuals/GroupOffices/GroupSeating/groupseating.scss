@@ -1,0 +1,71 @@
+.GroupSeating {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.GroupSeating-Wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.GroupSeating-Image {
+  width: 60%;
+  height: 350px;
+  background: src('./images/AboutMeeting.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.GroupSeating-TextBox {
+  width: 40%;
+  padding-left: 20px;
+}
+
+.GroupSeating-Title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #191919;
+  margin-bottom: 20px;
+}
+
+.GroupSeating-Text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9a9a9a;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.GroupSeating-Button {
+  width: 150px;
+  height: 25px;
+  background-color: #848484;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.GroupSeating-Button:hover {
+  background-color: #585858;
+}
+@media screen and (max-width: 1000px) {
+  .GroupSeating-Wrapper {
+    flex-direction: column;
+  }
+
+  .GroupSeating-Image {
+    width: 100%;
+    height: 50vw;
+    margin-bottom: 20px;
+  }
+
+  .GroupSeating-TextBox {
+    width: 90%;
+  }
+}

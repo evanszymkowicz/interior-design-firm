@@ -1,0 +1,114 @@
+.CorporateHero {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.CorporateHero-Wrapper {
+  width: 100%;
+}
+
+.CorporateHero-Image {
+  width: 100%;
+  height: 550px;
+  background: src("./images/Gesture/CorporateHeroImage.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.CorporateHero-WhiteBox {
+  width: 330px;
+  height: 180px;
+  background-color: #FFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.CorporateHero-WhiteBox-Top {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #191919;
+}
+
+.CorporateHero-WhiteBox-Title {
+  font-size: 16px;
+  color: #FFF;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.CorporateHero-WhiteBox-Text {
+  font-size: 14px;
+  color: #9a9a9a;
+  padding: 20px;
+  line-height: 20px;
+}
+
+.CorporateHero-Button {
+  width: 90%;
+  height: 30px;
+  background-color: #585858;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.CorporateHero-Button:hover {
+  background-color: #191919;
+}
+
+.CorporateHero-Mobile-TextBox {
+  width: 100%;
+  padding: 20px;
+  display: none;
+}
+
+.CorporateHero-Mobile-Title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #191919;
+  margin-bottom: 10px;
+}
+
+.CorporateHero-Mobile-Text {
+  font-size: 14px;
+  color: #9a9a9a;
+  width: 70%;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .CorporateHero-Image {
+    height: 450px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .CorporateHero-Mobile-TextBox {
+    display: block;
+  }
+
+  .CorporateHero-WhiteBox {
+    display: none;
+  }
+
+  .CorporateHero-Image {
+    height: 40vw;
+  }
+
+  .CorporateHero-Button {
+    margin: 0;
+    width: 200px;
+  }
+}

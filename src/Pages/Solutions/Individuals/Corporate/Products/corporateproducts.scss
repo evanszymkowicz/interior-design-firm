@@ -1,0 +1,87 @@
+.CorporateProducts {
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.CorporateProducts-Wrapper {
+  width: 100%;
+}
+
+.CorporateProducts-Title {
+  font-size: 24px;
+  margin-left: 20px;
+  color: #191919;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.CorporateProducts-ImageWrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.CorporateProducts-Image {
+  width: 24.5%;
+  height: 250px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.CorporateProducts-Image:hover {
+  opacity: 0.9;
+}
+
+.CorporateProducts-ImageText {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: -20px;
+}
+
+.CorporateProducts-Image1 {
+  background: src("./images/Gesture/GestureProduct1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.CorporateProducts-Image2 {
+  background: src("./images/Gesture/GestureProduct2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.CorporateProducts-Image3 {
+  background: src("./images/Gesture/GestureProduct3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.CorporateProducts-Image4 {
+  background: src("./images/Gesture/GestureProduct4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1000px) {
+  .CorporateProducts-ImageWrap {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  .CorporateProducts-Image {
+    width: 100%;
+    height: 80vw;
+  }
+
+  .CorporateProducts-ImageText {
+    margin-left: 20px;
+  }
+}

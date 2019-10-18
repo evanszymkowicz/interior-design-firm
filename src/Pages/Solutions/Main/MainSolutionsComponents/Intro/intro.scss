@@ -1,0 +1,80 @@
+.SolutionsIntro {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.SolutionsIntro-Content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.SolutionsIntro-Image {
+  width: 45%;
+  height: 300px;
+  background: src('./images/SamsungDesignCenter.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.SolutionsIntro-TextSection {
+  width: 54%;
+  padding: 30px 30px 30px 0;
+  margin-left: 40px;
+}
+
+.SolutionsIntro-Title {
+  font-size: 28px;
+  color: #191919;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.SolutionsIntro-Text {
+  font-size: 16px;
+  color: #9a9a9a;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  line-height: 22px;
+}
+@media screen and (max-width: 1200px) {
+  .SolutionsIntro-Image {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .SolutionsIntro-Image {
+    height: 30vw;
+  }
+}
+@media screen and (max-width: 800px) {
+  .SolutionsIntro-Title {
+    font-size: 22px;
+  }
+
+  .SolutionsIntro-Text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .SolutionsIntro-Content {
+    flex-direction: column;
+  }
+
+  .SolutionsIntro-Image {
+    width: 100%;
+    height: 40vw;
+  }
+
+  .SolutionsIntro-TextSection {
+    width: 100%;
+    padding: 30px;
+    margin-left: 0;
+  }
+
+  .SolutionsIntro-Text {
+    padding-right: 30px;
+  }
+}

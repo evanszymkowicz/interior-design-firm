@@ -1,0 +1,59 @@
+.SuitesInnovations {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.SuitesInnovations-Wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.SuitesInnovations-TextBox {
+  width: 35%;
+  padding: 20px;
+}
+
+.SuitesInnovations-Category {
+  font-size: 24px;
+  font-weight: 600;
+  color: #191919;
+  margin-bottom: 10px;
+}
+
+.SuitesInnovations-Title {
+  font-size: 14px;
+  font-weight: 800;
+  color: #585858;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.SuitesInnovations-Text {
+  font-size: 14px;
+  color: #9a9a9a;
+  line-height: 20px;
+}
+
+.SuitesInnovations-Image {
+  width: 65%;
+  height: 400px;
+  background: src("./images/Suites/SuitesInnovations.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1000px) {
+  .SuitesInnovations-Wrapper {
+    flex-direction: column;
+  }
+
+  .SuitesInnovations-Image {
+    width: 100%;
+    height: 50vw;
+  }
+
+  .SuitesInnovations-TextBox {
+    width: 70%;
+  }
+}

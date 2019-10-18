@@ -1,0 +1,145 @@
+.FullFullNavBarBar {
+  width: 100%;
+  height: 100px;
+  background-color: #FFF;
+  border-bottom: 1px solid #e3e3e3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 90;
+}
+
+a {
+  text-decoration: none;
+}
+
+.FullNavBar-Wrapper {
+  max-width: 1170px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.FullNavBar-TopRow {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #585858;
+
+  .FullNavBar-Logo {
+    font-family: 'Program OT Bold', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    cursor: pointer;
+    color: #585858;
+  }
+
+  .FullNavBar-UserLinks-Wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .FullNavBar-RegistrationLink {
+      color: #585858;
+
+      .FullNavBar-Registration {
+        font-size: 14px;
+        font-weight: 600;
+        margin-right: 30px;
+        cursor: pointer;
+      }
+    }
+
+    .FullNavBar-RegistrationLink:hover {
+      color: #191919;
+    }
+
+    .FullNavBar-ContactBtn {
+      width: 90px;
+      height: 25px;
+      background-color: rgb(61, 155, 206);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      .FullNavBar-ContactBtn-Text {
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 500;
+      }
+    }
+
+    .FullNavBar-ContactBtn:hover {
+      background-color: rgb(47, 126, 169);
+    }
+  }
+}
+
+.FullNavBar-BottomRow {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .FullNavBar-Links-Wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+
+    .FullNavBar-Link {
+      font-size: 14px;
+      color: #9a9a9a;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .FullNavBar-Link:hover {
+      color: #585858;
+    }
+  }
+
+  .FullNavBar-Dealer-Wrapper {
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+    .FullNavBar-Dealer-Icon {
+      width: 15px;
+      height: 22px;
+      background: src("./Assets/Icons/LocationIconBlue.svg");
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .FullNavBar-Dealer-Text {
+      color: rgb(61, 155, 206);
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .FullNavBar-Dealer-Text:hover {
+      color: rgb(47, 126, 169);
+    }
+  }
+}
+
+.FullNavBar-Link:hover {
+  color: #585858;
+}
+@media screen and (max-width: 1200px) {
+  .FullNavBar-Wrapper {
+    max-width: 980px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .FullNavBar {
+    display: none;
+  }
+}

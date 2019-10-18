@@ -1,0 +1,256 @@
+.InspirationGrid {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.InspirationGrid-Wrapper {
+  width: 100%;
+}
+
+.InspirationGrid-Row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.InspirationGrid-Row1 {}
+
+.InspirationGrid-Row1-Column1 {
+  width: 49%;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.InspirationGrid-Row1-Column1-Top {
+  height: 48.5%;
+  width: 100%;
+  background: src("./Assets/Images/InspirationGrid1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.InspirationGrid-Row1-Column1-Bottom {
+  height: 48.5%;
+  width: 100%;
+  background: src("./Assets/Images/InspirationGrid2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.InspirationGrid-Row1-Column2 {
+  width: 49%;
+  height: 900px;
+  background: src("./Assets/Images/InspirationGrid3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.InspirationGrid-Row2 {}
+
+.InspirationGrid-Row2-Column1 {
+  width: 32%;
+  height: 600px;
+  background: src("./Assets/Images/InspirationGrid4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.InspirationGrid-Row2-Column2 {
+  width: 32%;
+  height: 600px;
+  background: src("./Assets/Images/InspirationGrid5.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.InspirationGrid-Row2-Column3 {
+  width: 32%;
+  height: 600px;
+  background: src("./Assets/Images/InspirationGrid6.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.InspirationGrid-Row3 {}
+
+.InspirationGrid-Row3-Column1 {
+  width: 66%;
+  height: 600px;
+  background: src("./Assets/Images/InspirationGrid7.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.InspirationGrid-Row3-Column2 {
+  width: 31.5%;
+  height: 600px;
+  background: src("./Assets/Images/InspirationGrid8.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.InspirationGrid-Row4 {}
+
+.InspirationGrid-Row4-Column1 {
+  width: 31.5%;
+  height: 600px;
+  background: src("./Assets/Images/InspirationGrid9.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.InspirationGrid-Row4-Column2 {
+  width: 66%;
+  height: 600px;
+  background: src("./Assets/Images/InspirationGrid10.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.InspirationGrid-Row5 {}
+
+.InspirationGrid-Row5-Column1 {
+  width: 32%;
+  height: 600px;
+  background: src("./Assets/Images/InspirationGrid11.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.InspirationGrid-Row5-Column2 {
+  width: 32%;
+  height: 600px;
+  background: src("./Assets/Images/InspirationGrid12.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.InspirationGrid-Row5-Column3 {
+  width: 32%;
+  height: 600px;
+  background: src("./Assets/Images/InspirationGrid13.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.InspirationGridImage:hover {
+  opacity: 0.9;
+}
+@media screen and (max-width: 1200px) {
+  .InspirationGrid-Row1-Column1 {
+    height: 600px;
+  }
+
+  .InspirationGrid-Row1-Column2 {
+    height: 600px;
+  }
+
+  .InspirationGrid-Row2-Column1 {
+    height: 300px;
+  }
+
+  .InspirationGrid-Row2-Column2 {
+    height: 300px;
+  }
+
+  .InspirationGrid-Row2-Column3 {
+    height: 300px;
+  }
+
+  .InspirationGrid-Row3-Column1 {
+    height: 300px;
+  }
+
+  .InspirationGrid-Row3-Column2 {
+    height: 300px;
+  }
+
+  .InspirationGrid-Row4-Column1 {
+    height: 300px;
+  }
+
+  .InspirationGrid-Row4-Column2 {
+    height: 300px;
+  }
+
+  .InspirationGrid-Row5-Column1 {
+    height: 300px;
+  }
+
+  .InspirationGrid-Row5-Column2 {
+    height: 300px;
+  }
+
+  .InspirationGrid-Row5-Column3 {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .InspirationGrid-Row1-Column1 {
+    height: 50vw;
+  }
+
+  .InspirationGrid-Row1-Column2 {
+    height: 50vw;
+  }
+
+  .InspirationGrid-Row2-Column1 {
+    height: 25vw;
+  }
+
+  .InspirationGrid-Row2-Column2 {
+    height: 25vw;
+  }
+
+  .InspirationGrid-Row2-Column3 {
+    height: 25vw;
+  }
+
+  .InspirationGrid-Row3-Column1 {
+    height: 25vw;
+  }
+
+  .InspirationGrid-Row3-Column2 {
+    height: 25vw;
+  }
+
+  .InspirationGrid-Row4-Column1 {
+    height: 25vw;
+  }
+
+  .InspirationGrid-Row4-Column2 {
+    height: 25vw;
+  }
+
+  .InspirationGrid-Row5-Column1 {
+    height: 25vw;
+  }
+
+  .InspirationGrid-Row5-Column2 {
+    height: 25vw;
+  }
+
+  .InspirationGrid-Row5-Column3 {
+    height: 25vw;
+  }
+
+  .InspirationGrid-Row {
+    margin-top: 2vw;
+  }
+}

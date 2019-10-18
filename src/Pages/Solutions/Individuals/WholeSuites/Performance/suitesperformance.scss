@@ -1,0 +1,59 @@
+.SuitesPerformance {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.SuitesPerformance-Wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.SuitesPerformance-TextBox {
+  width: 35%;
+  padding: 20px;
+}
+
+.SuitesPerformance-Category {
+  font-size: 24px;
+  font-weight: 600;
+  color: #191919;
+  margin-bottom: 10px;
+}
+
+.SuitesPerformance-Title {
+  font-size: 14px;
+  font-weight: 800;
+  color: #585858;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.SuitesPerformance-Text {
+  font-size: 14px;
+  color: #9a9a9a;
+  line-height: 20px;
+}
+
+.SuitesPerformance-Image {
+  width: 65%;
+  height: 400px;
+  background: src("./images/Suites/SuitesPerformance.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1000px) {
+  .SuitesPerformance-Wrapper {
+    flex-direction: column;
+  }
+
+  .SuitesPerformance-Image {
+    width: 100%;
+    height: 50vw;
+  }
+
+  .SuitesPerformance-TextBox {
+    width: 70%;
+  }
+}

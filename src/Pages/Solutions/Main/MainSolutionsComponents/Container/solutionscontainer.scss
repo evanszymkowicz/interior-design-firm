@@ -1,0 +1,14 @@
+.SolutionsContainer {
+  width: 100%;
+}
+
+.SolutionsContainer-Wrapper {
+  width: 100%;
+  display: flex;
+}
+@media screen and (max-width: 1000px) {
+  .SolutionsContainer-Wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
