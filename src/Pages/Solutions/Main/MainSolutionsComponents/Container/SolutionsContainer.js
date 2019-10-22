@@ -1,6 +1,7 @@
 import React from 'react';
-import SolutionsMenu from './Menu/SolutionsMenu';
-import Cards from './Cards/Cards';
+import SolutionsMenu from '../Menu/SolutionsMenu';
+import Cards from '../Cards/Cards';
+import './solutionscontainer.scss';
 
 export default function SolutionsContainer() {
   return (

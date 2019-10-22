@@ -1,49 +1,41 @@
-import React, {Component} from 'react';
-import './groupInfo.scss';
+import React, { Component } from 'react';
+import './groupinfo.scss';
 
 export default class GroupInfoBar extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       ImagesTab: false,
       MaterialsTab: false,
-      DocumentsTab: false
-    }
+      DocumentsTab: false,
+    };
   }
 
   render() {
-
     const ToggleImagesTab = () => {
-      this.setState((prevState) => {
-        return {ImagesTab : !prevState.ImagesTab
-        }
-      });
-    }
+      this.setState((prevState) => ({ ImagesTab: !prevState.ImagesTab }));
+    };
     const CloseImagesTab = () => {
-      this.setState({ImagesTab: false});
-    }
+      this.setState({ ImagesTab: false });
+    };
 
     const ToggleMaterialsTab = () => {
-      this.setState((prevState) => {
-        return {
-          MaterialsTab: !prevState.MaterialsTab
-        }
-      });
-    }
+      this.setState((prevState) => ({
+        MaterialsTab: !prevState.MaterialsTab,
+      }));
+    };
     const CloseMaterialsTab = () => {
-      this.setState({MaterialsTab: false});
-    }
+      this.setState({ MaterialsTab: false });
+    };
 
     const ToggleDocumentsTab = () => {
-      this.setState((prevState) => {
-        return {
-          DocumentsTab: !prevState.DocumentsTab
-        }
-      });
-    }
+      this.setState((prevState) => ({
+        DocumentsTab: !prevState.DocumentsTab,
+      }));
+    };
     const CloseDocumentsTab = () => {
-      this.setState({DocumentsTab: false});
-    }
+      this.setState({ DocumentsTab: false });
+    };
 
     console.log(this.state.InfoActiveTab);
 
@@ -81,143 +73,145 @@ export default class GroupInfoBar extends Component {
       ToggleImagesTab();
       CloseMaterialsTab();
       CloseDocumentsTab();
-    }
+    };
 
     const MaterialsTabClick = () => {
       CloseImagesTab();
       ToggleMaterialsTab();
       CloseDocumentsTab();
-    }
+    };
 
     const DocumentsTabClick = () => {
       CloseImagesTab();
       CloseMaterialsTab();
       ToggleDocumentsTab();
-    }
+    };
 
-    return (<div className='GroupInfoBar'>
+    return (
+      <div className="GroupInfoBar">
 
-      <div className='InfoBar-Menu'>
-        <div className='InfoBar-Wrapper'>
-          <div className='InfoBar-Item' onClick={ImagesTabClick}>
-            <div className='InfoBar-Icon InfoBar-Icon1'></div>
-            <p className={ImagesTab}>Images</p>
-            <div className='InfoBar-Arrow'></div>
-          </div>
+        <div className="InfoBar-Menu">
+          <div className="InfoBar-Wrapper">
+            <div className="InfoBar-Item" onClick={ImagesTabClick}>
+              <div className="InfoBar-Icon InfoBar-Icon1" />
+              <p className={ImagesTab}>Images</p>
+              <div className="InfoBar-Arrow" />
+            </div>
 
-          <div className='InfoBar-Item' onClick={MaterialsTabClick}>
-            <div className='InfoBar-Icon InfoBar-Icon2'></div>
-            <p className={MaterialsTab}>Materials</p>
-            <div className='InfoBar-Arrow'></div>
-          </div>
+            <div className="InfoBar-Item" onClick={MaterialsTabClick}>
+              <div className="InfoBar-Icon InfoBar-Icon2" />
+              <p className={MaterialsTab}>Materials</p>
+              <div className="InfoBar-Arrow" />
+            </div>
 
-          <div className='InfoBar-Item' onClick={DocumentsTabClick}>
-            <div className='InfoBar-Icon InfoBar-Icon3'></div>
-            <p className={DocumentsTab}>Documents</p>
-            <div className='InfoBar-Arrow'></div>
-          </div>
-        </div>
-      </div>
-
-      <div className={ImagesCardClasses}>
-        <div className='InfoBar-ImagesCard-Wrapper'>
-          <div className='InfoBar-ImagesCard-Row'>
-            <div className='InfoBar-ImagesCard-Image GroupInfoBar-ImagesCard-Image1'></div>
-            <div className='InfoBar-ImagesCard-Image GroupInfoBar-ImagesCard-Image2'></div>
-            <div className='InfoBar-ImagesCard-Image GroupInfoBar-ImagesCard-Image3'></div>
-            <div className='InfoBar-ImagesCard-Image GroupInfoBar-ImagesCard-Image4'></div>
-          </div>
-          <div className='InfoBar-ImagesCard-Row'>
-            <div className='InfoBar-ImagesCard-Image GroupInfoBar-ImagesCard-Image5'></div>
-            <div className='InfoBar-ImagesCard-Image GroupInfoBar-ImagesCard-Image6'></div>
-            <div className='InfoBar-ImagesCard-Image GroupInfoBar-ImagesCard-Image7'></div>
-            <div className='InfoBar-ImagesCard-Image GroupInfoBar-ImagesCard-Image8'></div>
+            <div className="InfoBar-Item" onClick={DocumentsTabClick}>
+              <div className="InfoBar-Icon InfoBar-Icon3" />
+              <p className={DocumentsTab}>Documents</p>
+              <div className="InfoBar-Arrow" />
+            </div>
           </div>
         </div>
-      </div>
 
-      <div className={MaterialsCardClasses}>
-        <div className='InfoBar-MaterialsCard-Wrapper'>
-          <div className='InfoBar-MaterialsCard-Row'>
-            <div className='InfoBar-MaterialsCard-Image GroupInfoBar-MaterialsCard-Image1'>
-              <div className='InfoBar-MaterialsCard-Image-TextBox'>
-                <p className='InfoBar-MaterialsCard-Image-TextBox-Text'>
+        <div className={ImagesCardClasses}>
+          <div className="InfoBar-ImagesCard-Wrapper">
+            <div className="InfoBar-ImagesCard-Row">
+              <div className="InfoBar-ImagesCard-Image GroupInfoBar-ImagesCard-Image1" />
+              <div className="InfoBar-ImagesCard-Image GroupInfoBar-ImagesCard-Image2" />
+              <div className="InfoBar-ImagesCard-Image GroupInfoBar-ImagesCard-Image3" />
+              <div className="InfoBar-ImagesCard-Image GroupInfoBar-ImagesCard-Image4" />
+            </div>
+            <div className="InfoBar-ImagesCard-Row">
+              <div className="InfoBar-ImagesCard-Image GroupInfoBar-ImagesCard-Image5" />
+              <div className="InfoBar-ImagesCard-Image GroupInfoBar-ImagesCard-Image6" />
+              <div className="InfoBar-ImagesCard-Image GroupInfoBar-ImagesCard-Image7" />
+              <div className="InfoBar-ImagesCard-Image GroupInfoBar-ImagesCard-Image8" />
+            </div>
+          </div>
+        </div>
+
+        <div className={MaterialsCardClasses}>
+          <div className="InfoBar-MaterialsCard-Wrapper">
+            <div className="InfoBar-MaterialsCard-Row">
+              <div className="InfoBar-MaterialsCard-Image GroupInfoBar-MaterialsCard-Image1">
+                <div className="InfoBar-MaterialsCard-Image-TextBox">
+                  <p className="InfoBar-MaterialsCard-Image-TextBox-Text">
                   5G51 Sable
-                </p>
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className='InfoBar-MaterialsCard-Image GroupInfoBar-MaterialsCard-Image2'>
-              <div className='InfoBar-MaterialsCard-Image-TextBox'>
-                <p className='InfoBar-MaterialsCard-Image-TextBox-Text'>
+              <div className="InfoBar-MaterialsCard-Image GroupInfoBar-MaterialsCard-Image2">
+                <div className="InfoBar-MaterialsCard-Image-TextBox">
+                  <p className="InfoBar-MaterialsCard-Image-TextBox-Text">
                   5G64 Alpine
-                </p>
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className='InfoBar-MaterialsCard-Image GroupInfoBar-MaterialsCard-Image3'>
-              <div className='InfoBar-MaterialsCard-Image-TextBox'>
-                <p className='InfoBar-MaterialsCard-Image-TextBox-Text'>
+              <div className="InfoBar-MaterialsCard-Image GroupInfoBar-MaterialsCard-Image3">
+                <div className="InfoBar-MaterialsCard-Image-TextBox">
+                  <p className="InfoBar-MaterialsCard-Image-TextBox-Text">
                   5G10 Grape
-                </p>
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className='InfoBar-MaterialsCard-Image GroupInfoBar-MaterialsCard-Image4'>
-              <div className='InfoBar-MaterialsCard-Image-TextBox'>
-                <p className='InfoBar-MaterialsCard-Image-TextBox-Text'>
+              <div className="InfoBar-MaterialsCard-Image GroupInfoBar-MaterialsCard-Image4">
+                <div className="InfoBar-MaterialsCard-Image-TextBox">
+                  <p className="InfoBar-MaterialsCard-Image-TextBox-Text">
                   5G05 Burgundy
-                </p>
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className='InfoBar-MaterialsCard-Row'>
-            <div className='InfoBar-MaterialsCard-Image GroupInfoBar-MaterialsCard-Image5'>
-              <div className='InfoBar-MaterialsCard-Image-TextBox'>
-                <p className='InfoBar-MaterialsCard-Image-TextBox-Text'>
+            <div className="InfoBar-MaterialsCard-Row">
+              <div className="InfoBar-MaterialsCard-Image GroupInfoBar-MaterialsCard-Image5">
+                <div className="InfoBar-MaterialsCard-Image-TextBox">
+                  <p className="InfoBar-MaterialsCard-Image-TextBox-Text">
                   5G08 Navy
-                </p>
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className='InfoBar-MaterialsCard-Image GroupInfoBar-MaterialsCard-Image6'>
-              <div className='InfoBar-MaterialsCard-Image-TextBox'>
-                <p className='InfoBar-MaterialsCard-Image-TextBox-Text'>
+              <div className="InfoBar-MaterialsCard-Image GroupInfoBar-MaterialsCard-Image6">
+                <div className="InfoBar-MaterialsCard-Image-TextBox">
+                  <p className="InfoBar-MaterialsCard-Image-TextBox-Text">
                   5G61 Cyan
-                </p>
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className='InfoBar-MaterialsCard-Image GroupInfoBar-MaterialsCard-Image7'>
-              <div className='InfoBar-MaterialsCard-Image-TextBox'>
-                <p className='InfoBar-MaterialsCard-Image-TextBox-Text'>
+              <div className="InfoBar-MaterialsCard-Image GroupInfoBar-MaterialsCard-Image7">
+                <div className="InfoBar-MaterialsCard-Image-TextBox">
+                  <p className="InfoBar-MaterialsCard-Image-TextBox-Text">
                   5G62 Atlantic
-                </p>
+                  </p>
+                </div>
               </div>
-            </div>
-            <div className='InfoBar-MaterialsCard-Image GroupInfoBar-MaterialsCard-Image8'>
-              <div className='InfoBar-MaterialsCard-Image-TextBox'>
-                <p className='InfoBar-MaterialsCard-Image-TextBox-Text'>
+              <div className="InfoBar-MaterialsCard-Image GroupInfoBar-MaterialsCard-Image8">
+                <div className="InfoBar-MaterialsCard-Image-TextBox">
+                  <p className="InfoBar-MaterialsCard-Image-TextBox-Text">
                   5G08 New Black
-                </p>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div className={DocumentsCardClasses}>
-        <div className='InfoBar-DocumentsCard-Wrapper'>
-          <div className='InfoBar-DocumentsCard-Row'>
-            <div className='InfoBar-DocumentsCard-Image GroupInfoBar-DocumentsCard-Image1'>
-              <div className='InfoBar-MaterialsCard-Image-TextBox'>
-                <p className='InfoBar-MaterialsCard-Image-TextBox-Text'>
+        <div className={DocumentsCardClasses}>
+          <div className="InfoBar-DocumentsCard-Wrapper">
+            <div className="InfoBar-DocumentsCard-Row">
+              <div className="InfoBar-DocumentsCard-Image GroupInfoBar-DocumentsCard-Image1">
+                <div className="InfoBar-MaterialsCard-Image-TextBox">
+                  <p className="InfoBar-MaterialsCard-Image-TextBox-Text">
                   Download Chair Specs PDF
-                </p>
+                  </p>
+                </div>
               </div>
+              <div className="InfoBar-DocumentsCard-Image InfoBar-DocumentsCard-Image2" />
+              <div className="InfoBar-DocumentsCard-Image InfoBar-DocumentsCard-Image3" />
+              <div className="InfoBar-DocumentsCard-Image InfoBar-DocumentsCard-Image4" />
             </div>
-            <div className='InfoBar-DocumentsCard-Image InfoBar-DocumentsCard-Image2'></div>
-            <div className='InfoBar-DocumentsCard-Image InfoBar-DocumentsCard-Image3'></div>
-            <div className='InfoBar-DocumentsCard-Image InfoBar-DocumentsCard-Image4'></div>
           </div>
         </div>
-      </div>
 
-    </div>)
+      </div>
+    );
   }
 }

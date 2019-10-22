@@ -1,5 +1,5 @@
 import React from 'react';
-import PurchaseBar from './Constants/OnlineShopping/OnlineShopping';
+import PurchaseBar from 'Constants/OnlineShopping/OnlineShopping';
 import HomeHero from './Hero/HomeHero';
 import HomeInfoBar from './InfoBar/HomeInfoBar';
 import HomeTabs from './HomeTabs/HomeTabs';

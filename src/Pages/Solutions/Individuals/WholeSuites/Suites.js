@@ -1,5 +1,5 @@
 import React from 'react';
-import PurchaseBar from './Constants/OnlineShopping/OnlineShopping';
+import PurchaseBar from 'Constants/OnlineShopping/OnlineShopping';
 import SuitesHero from './Hero/SuitesHero';
 import InfoBar from './InfoBar/InfoBar';
 import SuitesHook from './Hook/SuitesHook';

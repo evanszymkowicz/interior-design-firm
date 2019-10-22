@@ -1,6 +1,6 @@
 import React from 'react';
-import SolutionsIntro from './MainSolutionsComponents/intro/intro';
-import SolutionsContainer from './MainSolutionsComponents/container/solutionsContainer';
+import SolutionsIntro from './MainSolutionsComponents/Intro/Intro';
+import SolutionsContainer from './MainSolutionsComponents/Container/SolutionsContainer';
 import './solutions.scss';
 
 export default function SolutionsPage() {

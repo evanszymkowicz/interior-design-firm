@@ -6,23 +6,19 @@ export default function Cards() {
   return (
     <div className="Cards">
       <div className="Cards-Content">
-
         <div className="Cards-Row">
           <div className="Product-Card Product-Card1">
             <Link to="/product/silq">
               <div className="CardImage CardImage1" />
             </Link>
-
             <div className="Card-TextBox">
               <p className="Card-Logo">Starck</p>
               <Link to="/product/silq">
                 <p className="Card-Title">SILQ</p>
               </Link>
-
               <p className="Card-Text">The SILQ chair is a breakthrough in seating design. Its innovative nature is both mechanism and artistry. It delivers a personal experience that responds to the unique movements of your body.</p>
             </div>
           </div>
-
           <div className="Product-Card Product-Card2">
             <Link to="/product/series1">
               <div className="CardImage CardImage2" />
@@ -84,7 +80,6 @@ export default function Cards() {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );

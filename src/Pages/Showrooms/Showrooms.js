@@ -1,6 +1,6 @@
 import React from 'react';
 import { GoogleMap, withScriptjs, withGoogleMap } from 'react-google-maps';
-import ScrollToTop from './Constants/scroll/scroll';
+import ScrollToTop from 'Constants/Scroll/Scroll';
 import './showrooms.scss';
 
 function Map() {

@@ -1,11 +1,11 @@
 import React from 'react';
-import PurchaseBar from './Constants/OnlineShopping/OnlineShopping';
-import CorporateHero from './hero/corporateHero';
-import CorporateInfoBar from './info/corporateInfo';
-import CorporateInsights from './insights/corporateInsights';
-import CorporateSeating from './seating/corporateSeating';
-import CorporatePlanning from './planning/corporatePlanning';
-import CorporateProducts from './products/corporateProducts';
+import PurchaseBar from 'Constants/OnlineShopping/OnlineShopping';
+import CorporateHero from './Hero/CorporateHero';
+import CorporateInfoBar from './Info/CorporateInfo';
+import CorporateInsights from './Insights/CorporateInsights';
+import CorporateSeating from './Seating/CorporateSeating';
+import CorporatePlanning from './Planning/CorporatePlanning';
+import CorporateProducts from './Products/CorporateProducts';
 import './corporate.scss';
 
 export default function Corporate() {

@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import ScrollToTop from './Constants/Scroll/Scroll';
-import './app.scss';
+import ScrollToTop from 'Constants/Scroll/Scroll';
+import './app.css';
 
 // my Components
+import MobileOverlay from './Constants/Overlay/MobileOverlay/MobileOverlay';
+import PurchaseBar from './Constants/OnlineShopping/OnlineShopping';
 import Nav from './Components/Navigation/Navigation/Nav';
 import MobileNav from './Components/Navigation/MobileNavigation/MobileNav';
 import NavDrawer from './Components/MobileDrawers/NavDrawer/NavDrawer';
@@ -23,9 +25,6 @@ import Suites from './Pages/Solutions/Individuals/WholeSuites/Suites';
 import Showrooms from './Pages/Showrooms/Showrooms';
 import Registration from './Pages/Register/Register';
 
-// import Buying from './features/buying/buying';
-import MobileOverlay from './Constants/Overlay/MobileOverlay/MobileOverlay';
-import OnlineShopping from './Constants/OnlineShopping/OnlineShopping';
 
 export default class App extends Component {
   constructor(props) {
@@ -131,17 +130,17 @@ export default class App extends Component {
             <div className="App-Wrapper">
               <Switch>
                 <Route path="/" exact="exact" component={LandingPage} />
-                <Route path="/solutions" component={Solutions} />
-                <Route path="/CaseStudies" component={CaseStudies} />
+                <Route path="/solutions" component={SolutionsPage} />
+                <Route path="/casestudies" component={CaseStudies} />
                 <Route path="/about" component={About} />
-                <Route path="/Contact" component={ContactUs} />
-                <Route path="/onlineshopping" component={OnlineShopping} />
+                <Route path="/contact" component={ContactUs} />
+                {/* <Route path="/onlineshopping" component={OnlineShopping} /> */}
                 <Route path="/find-a-showroom" component={Showrooms} />
                 <Route path="/registration" component={Registration} />
-                <Route path="/solutions/Corporate" component={Corporate} />
+                <Route path="/solutions/corporate" component={Corporate} />
                 <Route path="/solutions/group" component={Group} />
-                <Route path="/solutions/homeOffice" component={Home} />
-                <Route path="/solutions/wholeSuites" component={Suites} />
+                <Route path="/solutions/homeoffice" component={Home} />
+                <Route path="/solutions/wholesuites" component={Suites} />
               </Switch>
             </div>
             <FullFooter />

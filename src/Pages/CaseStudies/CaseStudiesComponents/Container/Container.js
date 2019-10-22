@@ -1,6 +1,6 @@
 import React from 'react';
-import MainGrid from '../mainGrid/mainGrid';
-import TrendingStudies from '../trending/trending';
+import MainGrid from '../MainGrid/MainGrid';
+import TrendingStudies from '../Trending/Trending';
 import './container.scss';
 
 export default function CaseStudiesContainer({
