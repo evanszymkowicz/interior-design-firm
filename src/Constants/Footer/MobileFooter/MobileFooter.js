@@ -29,16 +29,16 @@ export default function MobileFooter({
       <div className="MobileFooter-Wrapper">
         <div className="MobileFooter-Tab MobileFooter-Tab1" onClick={ToggleFooterTab1}>
           <p className="MobileFooter-AdditionSymbol">+</p>
-          <p className="MobileFooter-TabTitle">Corporate Information</p>
+          <p className="MobileFooter-TabTitle">Information</p>
         </div>
         <div className={FooterLinks1Classes}>
           <ul className="MobileFooter-TabLinksList">
+            <li className="MobileFooter-TabLinksListItem">About Us</li>
             <li className="MobileFooter-TabLinksListItem">Careers</li>
-            <li className="MobileFooter-TabLinksListItem">Diversity + Inclusion</li>
-            <li className="MobileFooter-TabLinksListItem">Community Relations</li>
+            <li className="MobileFooter-TabLinksListItem">Calendar</li>
+            <li className="MobileFooter-TabLinksListItem">Community</li>
             <li className="MobileFooter-TabLinksListItem">Charitable Effort</li>
-            <li className="MobileFooter-TabLinksListItem">Supplies</li>
-            <li className="MobileFooter-TabLinksListItem">Supplier Diversity</li>
+            <li className="MobileFooter-TabLinksListItem">Suppliers</li>
             <li className="MobileFooter-TabLinksListItem">Marketplace</li>
           </ul>
         </div>

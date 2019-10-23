@@ -12,7 +12,7 @@ export default function ContactUs() {
           <div className="ContactUs-TextBox">
             <p className="ContactUs-Text">We would love to hear from you! Use this form to contact us for sales requests, career information, investor relations, corporate information, or general questions.</p>
             <p className="ContactUs-Text">For warranty information, or to purchase replacement parts/keys, please contact a local authorized dealer.</p>
-            <p className="ContactUs-Text">Sales questions? Call us at 888.STARCK</p>
+            <p className="ContactUs-Text">Sales questions? Call us at (202) 646-6100</p>
           </div>
           <form action="post" className="ContactUs-Form">
             <div className="ContactUs-Form-Row">
@@ -25,7 +25,7 @@ export default function ContactUs() {
                   <option value="Investor Relations">Investor Relations</option>
                   <option value="A General Question">A General Question</option>
                   <option value="Technical Support">Technical Support</option>
-                  <option value="Im Interested In Becoming A Dealer">Im Interested In Becoming A Dealer</option>
+                  <option value="Im Interested In Becoming A Dealer">Im Interested In Becoming A Vendor</option>
                 </select>
               </div>
             </div>
@@ -73,7 +73,7 @@ export default function ContactUs() {
             <div className="ContactUs-Form-Row ContactUs-Closing">
               <p className="ContactUs-Form-Text">*Required Fields</p>
               <button type="reset" action="post" className="ContactUs-Button">
-                                Submit
+              Submit
               </button>
             </div>
           </form>

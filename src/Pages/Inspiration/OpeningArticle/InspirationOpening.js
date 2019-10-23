@@ -7,8 +7,8 @@ export default function InspirationOpening() {
       <div className="InspirationOpening-Wrapper">
         <div className="InspirationOpening-Image" />
         <div className="InspirationOpening-TextBox">
-          <p className="InspirationOpening-Title">What Workers Want</p>
-          <p className="InspirationOpening-Text">Why are people migrating away from their desks? What kinds of spaces are they looking for? In our recent study, we found that monotony is a huge motivator.</p>
+          <p className="InspirationOpening-Title">Why it Matters</p>
+          <p className="InspirationOpening-Text">Design professionals work tirelessly to advance the interior design profession and communicate the impact of design on the human experience.</p>
           <div className="InspirationOpening-Button">
             <p className="InspirationOpening-ButtonText">Read Article</p>
             <div className="InspirationOpening-ButtonIcon" />

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import ResearchContainer from './ResearchComps/Container/ResearchContainer';
 import './research.scss';
 
-
 export default class Research extends Component {
         constructor(props){
             super(props);
@@ -59,37 +58,33 @@ export default class Research extends Component {
                 });
             }
 
-
-
     render() {
-        return (
-            <div className='Research'>
-                <div className='Research-Wrapper'>
-                    <div className='Research-TitleBlock'>
-                        <p className='Research-Title'>360 Research</p>
-                    </div>
-                    <ResearchContainer  Card1Status={this.state.Card1}
-                                        Card2Status={this.state.Card2}
-                                        Card3Status={this.state.Card3}
-                                        Card4Status={this.state.Card4}
-                                        Card5Status={this.state.Card5}
-                                        Card6Status={this.state.Card6}
-                                        Card7Status={this.state.Card7}
-                                        Card8Status={this.state.Card8}
-
-                                        ToggleCard1={this.Card1Active}
-                                        ToggleCard2={this.Card2Active}
-                                        ToggleCard3={this.Card3Active}
-                                        ToggleCard4={this.Card4Active}
-                                        ToggleCard5={this.Card5Active}
-                                        ToggleCard6={this.Card6Active}
-                                        ToggleCard7={this.Card7Active}
-                                        ToggleCard8={this.Card8Active}
-
-                                        />
-
-                </div>
+      return (
+        <div className='Research'>
+          <div className='Research-Wrapper'>
+            <div className='Research-TitleBlock'>
+              <p className='Research-Title'>What We Are Reading</p>
             </div>
+            <ResearchContainer
+              Card1Status={this.state.Card1}
+              Card2Status={this.state.Card2}
+              Card3Status={this.state.Card3}
+              Card4Status={this.state.Card4}
+              Card5Status={this.state.Card5}
+              Card6Status={this.state.Card6}
+              Card7Status={this.state.Card7}
+              Card8Status={this.state.Card8}
+              ToggleCard1={this.Card1Active}
+              ToggleCard2={this.Card2Active}
+              ToggleCard3={this.Card3Active}
+              ToggleCard4={this.Card4Active}
+              ToggleCard5={this.Card5Active}
+              ToggleCard6={this.Card6Active}
+              ToggleCard7={this.Card7Active}
+              ToggleCard8={this.Card8Active}
+              />
+            </div>
+          </div>
         )
-    }
+  }
 }

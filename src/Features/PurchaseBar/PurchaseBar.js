@@ -18,7 +18,7 @@ export default function PurchaseBar() {
         <div className="PurchaseBar-BottomRow">
           <div className="PurchaseBar-Phone">
             <div className="PurchaseBar-PhoneIcon" />
-            <p className="PurchaseBar-PhoneText">888 - 753 - 9999</p>
+            <p className="PurchaseBar-PhoneText">(202) 646-6100</p>
           </div>
           <div className="PurchaseBar-Store">
             <div className="PurchaseBar-StoreIcon" />

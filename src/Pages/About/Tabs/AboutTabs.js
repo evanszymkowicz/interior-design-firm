@@ -49,7 +49,7 @@ export default function AboutTabs({
     <div className="AboutTabs">
       <div className="AboutTabs-Wrapper">
 
-        <p className="AboutTabs-Title">About The Washington Design Center</p>
+        <p className="AboutTabs-Title">About Us</p>
 
         <div className="AboutTabs-Tabs">
           <div className="AboutTabs-Tab AboutTabs-Tab1" onClick={ToggleWhoWeAre}>
@@ -59,7 +59,7 @@ export default function AboutTabs({
             <p className={Tab2Classes}>Our Heritage</p>
           </div>
           <div className="AboutTabs-Tab AboutTabs-Tab3" onClick={ToggleOurValues}>
-            <p className={Tab3Classes}>Our Values</p>
+            <p className={Tab3Classes}>Our Partners</p>
           </div>
           <div className="AboutTabs-Tab AboutTabs-Tab4" onClick={ToggleOurLocation}>
             <p className={Tab4Classes}>Showrooms</p>
@@ -80,46 +80,46 @@ export default function AboutTabs({
           <div className={Card2Classes}>
             <div className="AboutTabs-TextBox">
               <p className="AboutTabs-TextBoxTitle">History</p>
-              <p className="AboutTabs-TextBoxText">Lorem ipsum dolor sit amet, enim maluisset mei at. Malis quidam usu ei. Posse vocibus mel no, an affert everti constituam sit. Cu imperdiet omittantur sed, his at utroque mentitum repudiare. Sumo errem veniam ne vix vidit epicuri sadipscing ea his.</p>
+              <p className="AboutTabs-TextBoxText">The design center occupies a 1919 building originally intended for cold storage. It stands two blocks from the Capitol and two blocks from the National Mall. The center opened in 1983, and the style climate in the capital has changed in those 20 years.</p>
               <br />
-              <p className="AboutTabs-TextBoxText">Eam at eirmod epicurei constituam. Usu te possim graecis forensibus, his at utroque mentitum repudiare. Sumo errem veniam ne vix, sea eros expetenda accusamus at.</p>
+              <p className="AboutTabs-TextBoxText">The showroom refined the company's approach to arranging fabrics by color, a concept that has since been used at other locations nationwide.</p>
               <br />
-              <p className="AboutTabs-TextBoxText">Cum no legere legimus accumsan. Eam et natum detracto eligendi, salutatus has, mea eirmod oblique deseruisse in.</p>
+              <p className="AboutTabs-TextBoxText">We were in a conservative visual arena, bound by the historic look that enhances our city, but those boundaries have fallen. We now have clients from all over the world.</p>
             </div>
             <div className="AboutTabs-Image AboutTabs-Image2" />
           </div>
           <div className={Card3Classes}>
             <div className="AboutTabs-TextBox">
-              <p className="AboutTabs-TextBoxTitle">Our Values</p>
+              <p className="AboutTabs-TextBoxTitle">Our Vendors</p>
               <p className="AboutTabs-TextBoxText">
-More than 100 years ago, our founders made a commitment to do business differently. Our seven core values ground us and push us to do more and be better every day.
+                “It’s a new beginning—I think it’s a wonderful shot in the arm,” said Ann Lambeth, co-owner of J. Lambeth & Co. and a member of the steering committee. With the new CityCenterDC going up a few blocks away, and the thriving 14th Street design district just a stroll in the other direction, she said, “We’re the apex of that L. This really is the new design district. It’s the happening part of town.”
               </p>
               <br />
               <p className="AboutTabs-TextBoxText">
-                            At Starck we:
+              Our Partners Represent:
               </p>
               <br />
               <ul className="AboutTabs-HistoryList">
                 <li className="AboutTabs-HistoryListItem">
-                                    Act with integrity
+                Decorative
                 </li>
                 <li className="AboutTabs-HistoryListItem">
-                                    Tell the truth
+                Fabrics
                 </li>
                 <li className="AboutTabs-HistoryListItem">
-                                    Keep commitments
+                Paints
                 </li>
                 <li className="AboutTabs-HistoryListItem">
-                Treat people with dignity and respect
+                Workspace
                 </li>
                 <li className="AboutTabs-HistoryListItem">
-                Promote positive relationships
+                Wall Treatments
                 </li>
                 <li className="AboutTabs-HistoryListItem">
-                Protect the environment
+                Design
                 </li>
                 <li className="AboutTabs-HistoryListItem">
-                Excel
+                Materials
                 </li>
               </ul>
             </div>

@@ -1,34 +1,34 @@
 import React from 'react';
-import './ProductPageMenu.scss';
 import { Link } from 'react-router-dom';
+import './productpagemenu.scss';
 
 export default function ProductPageMenu() {
   return (
     <div className="ProductPageMenu">
       <p className="ProductPageMenu-Title">
-                Starck 2019 Line
+      Showrooms
       </p>
       <div className="ProductPageMenu-Links">
         <div className="ProductPageMenu-Category">
-          <p className="ProductPageMenu-LinksTitle">Premium</p>
+          <p className="ProductPageMenu-LinksTitle">Home</p>
           <Link to="/product/silq">
             <p className="ProductPageMenu-Link">SILQ</p>
           </Link>
         </div>
         <div className="ProductPageMenu-Category">
-          <p className="ProductPageMenu-LinksTitle">Class</p>
+          <p className="ProductPageMenu-LinksTitle">Office</p>
           <Link to="/product/series1">
             <p className="ProductPageMenu-Link">Series 1</p>
           </Link>
           <Link to="/product/gesture">
-            <p className="ProductPageMenu-Link">Gesture</p>
+            <p className="ProductPageMenu-Link">A. Rudin</p>
           </Link>
           <Link to="/product/leap">
             <p className="ProductPageMenu-Link">Leap</p>
           </Link>
         </div>
         <div className="ProductPageMenu-Category">
-          <p className="ProductPageMenu-LinksTitle">Utility</p>
+          <p className="ProductPageMenu-LinksTitle">You Decide</p>
           <Link to="/product-page">
             <p className="ProductPageMenu-Link">Amia</p>
           </Link>

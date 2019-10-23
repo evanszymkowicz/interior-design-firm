@@ -9,9 +9,9 @@ export default function Registration() {
           <p className="Registration-Title">Registration</p>
         </div>
         <div className="Registration-Content">
-          <p className="Registration-Text">Our Database Is Currently Under Development. </p>
-          <p className="Registration-Text">We Appreciate You're Patience!</p>
-          <p className="Registration-Text">Please Check Back With Us.</p>
+          <p className="Registration-Text">This feature is currently under develoment </p>
+          <p className="Registration-Text">We Appreciate Your Patience!</p>
+          <p className="Registration-Text">Please Check Back Soon.</p>
         </div>
       </div>
     </div>

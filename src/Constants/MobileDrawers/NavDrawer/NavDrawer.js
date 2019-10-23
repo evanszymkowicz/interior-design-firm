@@ -24,32 +24,31 @@ export default function NavDrawer({
         <ul className="NavDrawer-List">
           <Link to="/product-page" className="NavDrawer-ListLink">
             <li className="NavDrawer-ListItem" onClick={EventGroup}>
-                                    Products
+              Showrooms
               <div className="NavDrawer-ListItemLinkIcon" />
             </li>
           </Link>
           <Link to="/research" className="NavDrawer-ListLink">
             <li className="NavDrawer-ListItem" onClick={EventGroup}>
-                                    Research
+              Solutions
               <div className="NavDrawer-ListItemLinkIcon" />
             </li>
           </Link>
           <Link to="/inspiration" className="NavDrawer-ListLink">
             <li className="NavDrawer-ListItem" onClick={EventGroup}>
-                                    Inspiration
+              Inspiration
               <div className="NavDrawer-ListItemLinkIcon" />
             </li>
           </Link>
           <Link to="/about" className="NavDrawer-ListLink">
             <li className="NavDrawer-ListItem" onClick={EventGroup}>
-
-                                    About
+              About
               <div className="NavDrawer-ListItemLinkIcon" />
             </li>
           </Link>
           <Link to="/find-a-dealer" className="NavDrawer-ListLink">
             <li className="NavDrawer-ListItem NavDrawer-Dealer" onClick={EventGroup}>
-                                    Showrooms
+              Showrooms
               <div className="NavDrawer-ListItemLinkIcon" />
             </li>
           </Link>

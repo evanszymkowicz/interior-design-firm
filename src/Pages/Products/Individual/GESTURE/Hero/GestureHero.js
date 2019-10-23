@@ -10,7 +10,7 @@ export default function GestureHero() {
             <div className="GestureHero-WhiteBox-Top">
               <p className="GestureHero-WhiteBox-Title">Design Resources</p>
             </div>
-            <p className="GestureHero-WhiteBox-Text">Gesture is the first chair designed to support our interactions with today's technologies.</p>
+            <p className="GestureHero-WhiteBox-Text">A. Rudin has been a Los Angeles-based family-owned business fabricating custom furniture of exceptional quality and comfort.</p>
             <div className="GestureHero-Button">
             View Resources
             </div>
@@ -18,8 +18,7 @@ export default function GestureHero() {
         </div>
         <div className="GestureHero-Mobile-TextBox">
           <p className="GestureHero-Mobile-Title">Design Resources</p>
-          <p className="GestureHero-Mobile-Text">Gesture is the first chair designed to support our interactions with today's technologies.</p>
-
+          <p className="GestureHero-Mobile-Text">A. Rudin has been a Los Angeles-based family-owned business fabricating custom furniture of exceptional quality and comfort.</p>
           <div className="GestureHero-Button">
           View Resources
           </div>

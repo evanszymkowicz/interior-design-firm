@@ -7,11 +7,11 @@ export default function FullFooter() {
       <div className="FullFooter-Wrapper">
         <div className="FullFooter-Links">
           <div className="FullFooter-LinksColumn">
-            <p className="FullFooterLinksTitle FullFooter-Title">Corporate Information</p>
+            <p className="FullFooterLinksTitle FullFooter-Title">Information</p>
             <ul className="FullFooter-List">
-              <li className="FullFooter-ListItem">About The Washington Design Center</li>
+              <li className="FullFooter-ListItem">About Us</li>
               <li className="FullFooter-ListItem">Careers</li>
-              <li className="FullFooter-ListItem">Diversity + Inclusion</li>
+              <li className="FullFooter-ListItem">Calendar</li>
               <li className="FullFooter-ListItem">Community</li>
               <li className="FullFooter-ListItem">Charitable Effort</li>
               <li className="FullFooter-ListItem">Suppliers</li>
@@ -48,9 +48,9 @@ export default function FullFooter() {
             <div className="FullFooter-SocialTag FullFooter-SocialTag4" />
           </div>
           <p className="FullFooter-ContactUsTitle FullFooter-Title">Contact Us</p>
-          <p className="FulLFooter-ContactUsText">We would love to hear from you! Contact us for sales requests, career information, investor relations, corporate information, or general questions.</p>
+          <p className="FulLFooter-ContactUsText">We would love to hear from you!</p>
         </div>
-        <p className="FullFooter-CopyRight">2019 © Evan Szymkowicz.</p>
+        <p className="FullFooter-CopyRight">2019 © Evan Szymkowicz</p>
       </div>
     </div>
   );

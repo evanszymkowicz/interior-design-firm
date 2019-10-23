@@ -1,25 +1,23 @@
 import React from 'react';
-import './featured.scss';
 import { Link } from 'react-router-dom';
+import './featured.scss';
 
 export default function Featured() {
   return (
     <div className="Featured">
       <div className="Featured-Content">
         <p className="Featured-Title">
-                    Featured Products
+        Featured Vendors
         </p>
         <div className="Featured-CardWrapper">
           <div className="Featured-Card Featured-Card1">
             <Link to="/product/gesture">
               <div className="Featured-CardImage Featured-CardImage1" />
             </Link>
-
             <div className="Featured-Card-TextBox">
               <Link to="/product/gesture">
-                <p className="Featured-CardTitle">Gesture</p>
+                <p className="Featured-CardTitle">A. Rudin</p>
               </Link>
-
               <p className="Featured-CardText">Inspired by the movement of the human body, Gesture is the first office chair designed to support our interactions with today's technologies. Gesture is created for the way we work today.</p>
             </div>
           </div>

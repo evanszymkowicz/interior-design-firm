@@ -24,10 +24,10 @@ export default function FullNav() {
         <div className="FullNav-BottomRow">
           <div className="FullNav-Links-Wrapper">
             <Link to="/product-page">
-              <p className="FullNav-Link">Products</p>
+              <p className="FullNav-Link">Showrooms</p>
             </Link>
             <Link to="/research">
-              <p className="FullNav-Link">Research</p>
+              <p className="FullNav-Link">Solutions</p>
             </Link>
             <Link to="/inspiration">
               <p className="FullNav-Link">Inspiration</p>
@@ -39,7 +39,7 @@ export default function FullNav() {
           <Link to="/find-a-dealer">
             <div className="FullNav-Dealer-Wrapper">
               <div className="FullNav-Dealer-Icon" />
-              <p className="FullNav-Dealer-Text">Showrooms</p>
+              <p className="FullNav-Dealer-Text">Find Us</p>
             </div>
           </Link>
         </div>

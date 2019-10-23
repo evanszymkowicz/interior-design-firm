@@ -13,7 +13,7 @@ export default function Gesture() {
     <div className="Gesture">
       <div className="Gesture-Wrapper">
         <div className="Gesture-TitleBlock">
-          <p className="Gesture-Title">Gesture</p>
+          <p className="Gesture-Title">A. Rudin</p>
           <div className="BuyButton">
             <p className="BuyButtonText">Buy Now</p>
           </div>

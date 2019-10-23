@@ -8,7 +8,7 @@ export default function AboutClosing() {
         <div className="AboutClosing-Image" />
         <div className="AboutClosing-TextBox">
           <p className="AboutClosing-Title">Our Leadership</p>
-          <p className="AboutClosing-Text">A commitment to excellence, creativity and innovation. Meet the people ready to help your business thrive.</p>
+          <p className="AboutClosing-Text">A commitment to excellence, creativity and innovation. Meet the people ready to make your ideas a reality</p>
           <div className="AboutClosing-Button">
             <p className="AboutClosing-ButtonText">Executive Staff</p>
             <div className="AboutClosing-ButtonIcon" />

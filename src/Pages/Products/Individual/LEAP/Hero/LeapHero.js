@@ -18,7 +18,7 @@ export default function LeapHero() {
         </div>
         <div className="LeapHero-Mobile-TextBox">
           <p className="LeapHero-Mobile-Title">Design Resources</p>
-          <p className="LeapHero-Mobile-Text">Gesture is the first chair designed to support our interactions with today's technologies.</p>
+          <p className="LeapHero-Mobile-Text">A. Rudin has been a Los Angeles-based family-owned business fabricating custom furniture of exceptional quality and comfort..</p>
           <div className="LeapHero-Button">
           View Resources
           </div>

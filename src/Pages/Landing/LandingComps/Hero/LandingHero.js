@@ -8,11 +8,11 @@ export default function LandingHero() {
       <div className="LandingHero-Content">
         <div className="LandingHero-BlueBox">
           <div className="LandingHero-BlueBox-WhiteBox">
-            <p className="LandingHero-BlueBox-WhiteBox-Title">A new standard for office chairs </p>
-            <p className="LandingHero-BlueBox-WhiteBox-Text">We've set out to capture the same quality and prestige found in high end automobiles and render that in the office space.</p>
+            <p className="LandingHero-BlueBox-WhiteBox-Title">Home. Your Luxury Destination</p>
+            <p className="LandingHero-BlueBox-WhiteBox-Text">The Washington Design Center at Franklin Court is conveniently located in the heart of the downtown Washington, DC.</p>
             <Link to="/product/silq">
               <div className="LandingHero-BlueBox-WhiteBox-Button">
-                <p className="LandingHero-BlueBox-WhiteBox-ButtonText">2019 SILQ</p>
+                <p className="LandingHero-BlueBox-WhiteBox-ButtonText">Featured</p>
                 <div className="LandingHero-BlueBox-WhiteBox-ButtonIcon">
                   <div className="LandingHero-BlueBox-WhiteBox-ButtonIcon-Image" />
                 </div>
@@ -23,11 +23,11 @@ export default function LandingHero() {
         <div className="LandingHero-ImageBox" />
       </div>
       <div className="LandingHero-MobileContent">
-        <p className="LandingHero-MobileTitle">A new standard for office chairs </p>
-        <p className="LandingHero-MobileText">We've set out to capture the same quality and prestige found in high end automobiles and render that in the office space.</p>
+        <p className="LandingHero-MobileTitle">Home. Your Luxury Destination</p>
+        <p className="LandingHero-MobileText">The Washington Design Center at Franklin Court is conveniently located in the heart of the downtown Washington, DC</p>
         <Link to="/product/silq">
           <div className="LandingHero-Mobile-Button" id="LandingHero-Mobile-Button">
-            <p className="LandingHero-Mobile-ButtonText">2019 SILQ</p>
+            <p className="LandingHero-Mobile-ButtonText">Featured</p>
             <div className="LandingHero-Mobile-ButtonIcon">
               <div className="LandingHero-Mobile-ButtonIcon-Image" />
             </div>
