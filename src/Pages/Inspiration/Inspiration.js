@@ -1,9 +1,9 @@
 import React from 'react';
-import InspirationHero from './hero/hero';
-import FirstArticle from './firstArticle/firstArticle';
-import InspirationHook from './hook/hook';
-import InspirationGrid from './grid/grid';
-import LastArticle from './lastArticle/lastArticle';
+import InspirationHero from './Hero/InspirationHero';
+import InspirationOpening from './OpeningArticle/InspirationOpening';
+import InspirationHook from './Hero/Hook/InspirationHook';
+import InspirationGrid from './Grid/InspirationGrid';
+import InspirationClosing from './Closing Article/InspirationClosing';
 import './inspiration.scss';
 
 export default function Inspiration() {
@@ -14,10 +14,10 @@ export default function Inspiration() {
           <p className="Inspiration-Title">Get Inspired</p>
         </div>
         <InspirationHero />
-        <FirstArticle />
+        <InspirationOpening />
         <InspirationHook />
         <InspirationGrid />
-        <LastArticle />
+        <InspirationClosing />
       </div>
     </div>
   );
