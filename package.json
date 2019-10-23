@@ -7,13 +7,15 @@
     "node": "10.16.3"
   },
   "dependencies": {
-    "logrocket": "^1.0.3",
+    "@types/googlemaps": "^3.38.0",
+    "@types/markerclustererplus": "^2.1.33",
+    "@types/react": "^16.9.9",
     "node-sass": "^4.12.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-google-maps": "^9.4.5",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "^3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -61,6 +63,5 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/evanszymkowicz/interior-design-firm/issues"
-  },
-  "homepage": "https://github.com/evanszymkowicz/interior-design-firm#readme"
+  }
 }
