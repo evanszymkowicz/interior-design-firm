@@ -1,24 +1,61 @@
-import React from 'react';
+import React, { Component } from 'react';
+import AboutHero from './Hero/AboutHero';
+import AboutTabs from './Tabs/AboutTabs';
+import AboutInfo from './Info/AboutInfo';
+import AboutClosing from './AboutClosing/AboutClosing';
 import './about.scss';
 
-export default function About() {
-  return (
-    <div className="About">
-      <div className="About-Wrapper">
-        <div className="About-Image" />
-        <div className="About-TextBox">
-          <p className="About-Title">Our Team</p>
-          <p className="About-Text">A commitment to excellence, creativity and innovation. Meet the people ready to help your business thrive.</p>
-          <div className="About-Button">
-            <p className="About-ButtonText">Executive Staff</p>
-            <div className="About-ButtonIcon" />
+export default class About extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      ActiveTab: 'who',
+    };
+  }
+
+  render() {
+    const ToggleWhoWeAre = () => {
+      this.setState({ ActiveTab: 'who' });
+    };
+
+    const ToggleOurHeritage = () => {
+      this.setState({ ActiveTab: 'heritage' });
+    };
+
+    const ToggleOurValues = () => {
+      this.setState({ ActiveTab: 'values' });
+    };
+
+    const ToggleOurLocation = () => {
+      this.setState({ ActiveTab: 'location' });
+    };
+
+    console.log(this.state.ActiveTab);
+
+    return (
+      <div className="About">
+        <div className="About-Wrapper">
+
+          <div className="About-TitleBlock">
+            <p className="About-Title">Our Company</p>
           </div>
-          <div className="About-Button">
-            <p className="About-ButtonText">Floor Staff</p>
-            <div className="About-ButtonIcon" />
-          </div>
+
+
+          <AboutHero />
+          <AboutTabs
+            ToggleWhoWeAre={ToggleWhoWeAre}
+            ToggleOurHeritage={ToggleOurHeritage}
+            ToggleOurValues={ToggleOurValues}
+            ToggleOurLocation={ToggleOurLocation}
+
+            ActiveTabStatus={this.state.ActiveTab}
+          />
+          <AboutInfo />
+          <AboutClosing />
+
+
         </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
