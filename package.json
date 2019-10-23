@@ -32,7 +32,7 @@
       "last 1 safari version"
     ]
   },
-  "description": "",
+  "description": "Washington Design Center Digital Home.",
   "devDependencies": {
     "eslint": "^6.5.1",
     "eslint-config-airbnb": "^18.0.1",

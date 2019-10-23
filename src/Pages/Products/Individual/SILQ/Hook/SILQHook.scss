@@ -1,0 +1,21 @@
+.SILQHook  {
+    width: 100%;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.SILQHook-Text {
+    padding: 0 10%;
+    font-size: 24px;
+    color: #9a9a9a;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 1000px){
+    .SILQHook-Text {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+}

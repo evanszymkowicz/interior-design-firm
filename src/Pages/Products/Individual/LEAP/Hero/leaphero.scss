@@ -1,0 +1,116 @@
+.LeapHero {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.LeapHero-Wrapper {
+    width: 100%;
+
+}
+
+.LeapHero-Image {
+    width: 100%;
+    height: 550px;
+    background: url('../../../../../Assets/Images/Leap/LeapHero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.LeapHero-WhiteBox {
+    width: 330px;
+    height: 200px;
+    background-color: #FFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.LeapHero-WhiteBox-Top {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #191919
+}
+
+.LeapHero-WhiteBox-Title {
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.LeapHero-WhiteBox-Text {
+    font-size: 14px;
+    color: #9a9a9a;
+    padding: 20px;
+    line-height: 20px;
+}
+
+.LeapHero-Button {
+    width: 90%;
+    height: 30px;
+    background-color: #585858;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.LeapHero-Button:hover {
+    background-color: #717171;
+}
+.LeapHero-Mobile-TextBox {
+    width: 100%;
+    padding: 20px;
+    display: none;
+}
+
+.LeapHero-Mobile-Title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #191919;
+    margin-bottom: 10px;
+}
+
+.LeapHero-Mobile-Text {
+    font-size: 14px;
+    color: #9a9a9a;
+    width: 70%;
+    line-height: 20px;
+
+    margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .LeapHero-Image {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .LeapHero-Mobile-TextBox {
+        display: block;
+    }
+    .LeapHero-WhiteBox {
+        display: none;
+    }
+    .LeapHero-Image {
+        height: 40vw;
+    }
+    .LeapHero-Button {
+        margin: 0;
+        width: 200px;
+    }
+}
