@@ -1,7 +1,7 @@
 import React from 'react';
 import ProductPageIntro from './MainProductPageComps/Intro/ProductPageIntro';
 import ProductPageContainer from './MainProductPageComps/Container/ProductPageContainer';
-import './productpage.scss';
+import './productspage.scss';
 
 export default function ProductPage() {
   return (
