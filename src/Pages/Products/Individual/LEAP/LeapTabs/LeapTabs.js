@@ -75,67 +75,52 @@ export default class LeapTabs extends Component {
 
         <div className="AboutTabs-Wrapper">
 
-          <p className="AboutTabs-Title">Features</p>
+          <p className="AboutTabs-Title">Products</p>
 
           <div className="AboutTabs-Tabs">
             <div className="AboutTabs-Tab AboutTabs-Tab1" onClick={ToggleWhoWeAre}>
-              <p className={Tab1Classes}>Movement</p>
+              <p className={Tab1Classes}>Gemelli</p>
             </div>
             <div className="AboutTabs-Tab AboutTabs-Tab2" onClick={ToggleOurHeritage}>
-              <p className={Tab2Classes}>Orientation</p>
+              <p className={Tab2Classes}>Harrison Van Horn</p>
             </div>
             <div className="AboutTabs-Tab AboutTabs-Tab3" onClick={ToggleOurValues}>
-              <p className={Tab3Classes}>Fit</p>
+              <p className={Tab3Classes}>Lane Venture</p>
             </div>
             <div className="AboutTabs-Tab AboutTabs-Tab4" onClick={ToggleOurLocation}>
-              <p className={Tab4Classes}>WorkLounge</p>
+              <p className={Tab4Classes}>Niermann Weeks</p>
             </div>
           </div>
 
           <div className="AboutTabs-CardContainer">
             <div className={Card1Classes}>
               <div className="AboutTabs-Image LeapTabs-Image1" />
-
               <div className="AboutTabs-TextBox">
-                <p className="AboutTabs-TextBoxText">Moving helps reduce pressure on the spine, sends oxygen to your muscles, and increases blood flow to your brain. Movement is healthy and your desk chair should support your body as you move.</p>
+                <p className="AboutTabs-TextBoxText">The Gemelli Collection for Carty & Carty, Inc. was born of a family history steeped in the tradition of fine antiques and collecting. Anne and Edward Carty introduced their debut reproduction collection of fine and rare 189th and early 19th Century tables, chairs, chests, cabinets and other handcrafted furniture in 2004 after a lifetime of being exposed to and savoring fine antiques.</p>
               </div>
-
-
             </div>
-
             <div className={Card2Classes}>
               <div className="AboutTabs-Image LeapTabs-Image2" />
-
               <div className="AboutTabs-TextBox">
-                <p className="AboutTabs-TextBoxText">Changes in posture help you stay comfortable and more attentive. Leap office chair’s Natural Glide System™ enables you to comfortably recline without straining your eyes, neck, or arms.</p>
-
+                <p className="AboutTabs-TextBoxText">Using lacquered grass cloth, exotic reeds, and rare bamboo to provide the incomparable “look” that is Harrison-Van Horn, our product line includes cabinets, tables, desks, armoires, television cabinets, game tables, and consoles. Our reputation for creating one-of-a kind, originals for the most particular of designers is also well known. The ability to make “almost” anything that is thought up and sketched has created our niche in the High-End world of custom-made furniture.</p>
               </div>
-
             </div>
-
             <div className={Card3Classes}>
               <div className="AboutTabs-Image LeapTabs-Image3" />
               <div className="AboutTabs-TextBox">
-                <p className="AboutTabs-TextBoxText">Your body is unique. You need a desk chair that easily adjusts to fit you, your preferences, and how you work.</p>
+                <p className="AboutTabs-TextBoxText">We offer the ability to engineer the most difficult of projects with scaled shop drawing, bringing a vision to reality.</p>
               </div>
-
             </div>
-
             <div className={Card4Classes}>
               <div className="AboutTabs-Image LeapTabs-Image4" />
               <div className="AboutTabs-TextBox">
-                <p className="AboutTabs-TextBoxText">The Leap WorkLounge, developed in conjunction with IDEO, combines elegant form, rich materials, and Leap technology.</p>
+                <p className="AboutTabs-TextBoxText">Theese designs borrow elements from the past and reinterpret them to fit current lifestyles, aesthetically relating to both traditional and contemporary interiors.</p>
                 <br />
-                <p className="AboutTabs-TextBoxText">Research has shown that changing posture is the right thing to do for good health. So, if you need to push back and relax in a deep recline, sit up to keyboard, or even something in between, the Leap WorkLounge and Ottoman will provide you with exceptional comfort and support.</p>
-
+                <p className="AboutTabs-TextBoxText">All products are handmade and finished in their Maryland studios, and almost half of their business is custom-designed to meet the special needs of professional architect and designer clients. Niermann Weeks features more than 600 standard designs with 500 finishes, available through to-the-trade designer showrooms in the United States and Canada.</p>
               </div>
-
             </div>
-
           </div>
-
         </div>
-
       </div>
     );
   }

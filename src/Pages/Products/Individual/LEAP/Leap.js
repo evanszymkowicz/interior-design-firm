@@ -12,7 +12,7 @@ export default function Leap() {
     <div className="Leap">
       <div className="Leap-Wrapper">
         <div className="Leap-TitleBlock">
-          <p className="Leap-Title">Leap</p>
+          <p className="Leap-Title">Michael Cleary</p>
           <div className="BuyButton">
             <p className="BuyButtonText">Buy Now</p>
           </div>

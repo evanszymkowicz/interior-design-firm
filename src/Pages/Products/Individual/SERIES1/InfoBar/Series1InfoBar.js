@@ -195,7 +195,7 @@ export default class Series1InfoBar extends Component {
               <div className="InfoBar-DocumentsCard-Image InfoBar-DocumentsCard-Image1">
                 <div className="InfoBar-MaterialsCard-Image-TextBox">
                   <p className="InfoBar-MaterialsCard-Image-TextBox-Text">
-                                        Download Chair Specs PDF
+                  DEDON Commitment to Green
                   </p>
                 </div>
               </div>

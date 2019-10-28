@@ -7,10 +7,10 @@ export default function LeapSeating() {
       <div className="LeapSeating-Wrapper">
         <div className="LeapSeating-Image" />
         <div className="LeapSeating-TextBox">
-          <p className="LeapSeating-Title">The Strack Seating Difference</p>
-          <p className="LeapSeating-Text">At Starck, we study how you work and how you feel. You inspire new seating solutions, each expressed with uncompromising quality, craftsmanship and sustainability.</p>
+          <p className="LeapSeating-Title">Michael Cleary</p>
+          <p className="LeapSeating-Text">From suggestions to sizes, we're ready  to  help.</p>
           <div className="LeapSeating-Button">
-            Find Out More
+          Connect
           </div>
         </div>
       </div>

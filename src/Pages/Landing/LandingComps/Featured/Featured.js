@@ -27,9 +27,9 @@ export default function Featured() {
             </Link>
             <div className="Featured-Card-TextBox">
               <Link to="/product/series1">
-                <p className="Featured-CardTitle">Series 1</p>
+                <p className="Featured-CardTitle">Dedon</p>
               </Link>
-              <p className="Featured-CardText">Series 1 office chair delivers on what’s important - performance, style and choice. It retains everything that’s valued in a chair, while making it attainable for everyone.</p>
+              <p className="Featured-CardText">You could say the story of DEDON begins in a hospital bed in Munich in 1990. It’s here, recovering from a devastating blow to the face, that Bobby Dekeyser, the promising young goalie of the bayern munich soccer club, abruptly decides to leave professional sport to pursue his life’s true dream.</p>
             </div>
           </div>
           <div className="Featured-Card Featured-Card3">
@@ -38,9 +38,9 @@ export default function Featured() {
             </Link>
             <div className="Featured-Card-TextBox">
               <Link to="/product/leap">
-                <p className="Featured-CardTitle">Leap</p>
+                <p className="Featured-CardTitle">Michael Cleary</p>
               </Link>
-              <p className="Featured-CardText">The Leap office chair was designed to foster collaboration and promote movement.</p>
+              <p className="Featured-CardText">The Michael-Cleary showrooms opened in the Washington Design Center in 1990 and in the fall of 2005 at the Design Center at The Merchandise Mart. Working closely with the design community, Michael-Cleary offers over 45 lines of residential home furnishings, fabric, lighting, wall covering, floor coverings and accessories.</p>
             </div>
           </div>
         </div>

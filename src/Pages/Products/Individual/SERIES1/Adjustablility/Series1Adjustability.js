@@ -7,10 +7,10 @@ export default function Series1Adjustability() {
       <div className="Series1Adjustability-Wrapper">
         <div className="Series1Adjustability-Image" />
         <div className="Series1Adjustability-TextBox">
-          <p className="Series1Adjustability-Title">Adjustability</p>
-          <p className="Series1Adjustability-Text">Starck Series 1 was thoughtfully designed with integrated LiveBack technology, adaptive bolstering and 4D adjustable arms, delivering the dynamic performance you’ve come to expect from Starck.</p>
+          <p className="Series1Adjustability-Title">See More</p>
+          <p className="Series1Adjustability-Text">Our stunning collections are not just for the purchaser, they are here to serve as inspiration for your next interior project.</p>
           <div className="Series1Adjustability-Button">
-                        Watch Video
+          Watch Video
           </div>
         </div>
       </div>
